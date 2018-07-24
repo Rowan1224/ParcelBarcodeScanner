@@ -1,0 +1,628 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/rowan/Downloads/ParcelBarcodeScanner/app/src/main/AndroidManifest.xml:2:1-54:12
+INJECTED from /home/rowan/Downloads/ParcelBarcodeScanner/app/src/main/AndroidManifest.xml:2:1-54:12
+INJECTED from /home/rowan/Downloads/ParcelBarcodeScanner/app/src/main/AndroidManifest.xml:2:1-54:12
+INJECTED from /home/rowan/Downloads/ParcelBarcodeScanner/app/src/main/AndroidManifest.xml:2:1-54:12
+MERGED from [com.google.firebase:firebase-core:16.0.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.1.aar/487a8014fc24e09db75ca54641b38b52/AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:design:26.1.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/1adc83edaee758233b601d199a2d3bf3/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/b2e37c360693c9a42407a9e026c844eb/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /home/rowan/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/9bbd4d44790aed8cf8973821c648325e/AndroidManifest.xml:2:1-11:12
+MERGED from [me.dm7.barcodescanner:zxing:1.9.8] /home/rowan/.gradle/caches/transforms-1/files-1.1/zxing-1.9.8.aar/3e8fd3e2589a44ff86755fdac4e0e10a/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/c1c08d9795b3d990159167a991d1f5f1/AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.android.gms:play-services-location:15.0.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/play-services-location-15.0.1.aar/b5c7c8465fe8784a44db3bb8ade04186/AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.volley:volley:1.0.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/volley-1.0.0.aar/b0ff482cd130b8f2314231f8a1d4bc27/AndroidManifest.xml:2:1-11:12
+MERGED from [com.pusher:push-notifications-android:0.10.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/push-notifications-android-0.10.1.aar/d9b0ebf226abcbe9e15d8860bbd8af0b/AndroidManifest.xml:2:1-63:12
+MERGED from [com.google.firebase:firebase-messaging:17.1.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.1.0.aar/9a3d88e95b3f454cfefa15348274d446/AndroidManifest.xml:17:1-37:12
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/c5451a1fa674fad73d130e6a90b2ae5e/AndroidManifest.xml:17:1-34:12
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/45222cabedbe62d37da5a7287130dbce/AndroidManifest.xml:17:1-55:12
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/7ac470549b4d80c7712ffe6fa396fe3c/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/cdbaf34a333d085d0f53842ed1d57683/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/5818711593c65a66006361864bdb1de2/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:transition:26.1.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/505f5960046a230c961688c8d2c4cbcc/AndroidManifest.xml:17:1-28:12
+MERGED from [me.dm7.barcodescanner:core:1.9.8] /home/rowan/.gradle/caches/transforms-1/files-1.1/core-1.9.8.aar/dc335ecead102c4915022705b258044c/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/c2a55dcdb39abc6a7c3b573cfabe2f7a/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.firebase:firebase-iid:16.2.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/f45cb37873bd01002d1e91fec79d2456/AndroidManifest.xml:17:1-65:12
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.0.aar/09e0769bea80d2c2668d99117e6df55a/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/97599bc1c61810df36e15d80f95f61da/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-15.0.1.aar/b743059f2154a5263e1d2db5c41d51eb/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-common:16.0.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/44684d2aae65563bca8607d9faf4510d/AndroidManifest.xml:2:1-16:12
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/d533b362a93d3bd12890fc5cf3fb69ca/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-16.0.0.aar/adb3c4f02c20cc08935bb338f8cbd0dd/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/play-services-stats-15.0.1.aar/351b557b50d8a26203ce0d0de77344f1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/4a8eb11df0c7bf542ee4f1cd1d8fbb9e/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/13ffb66e820a8c64e631d64c3a27f587/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.1.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/d52f1c25c1fc0c08681e9b3b0d1ea7a9/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.1.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/f54b8903d00169a290023281f7293642/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/afd4f65321a01a6eac0946f02ef6c48a/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/df7f4dc49dc281846a6f6b102b580ac2/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/f643544124c43c7f89d5b1f31a28a487/AndroidManifest.xml:17:1-31:12
+MERGED from [com.firebase:firebase-jobdispatcher:0.8.5] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-jobdispatcher-0.8.5.aar/09b8ef00f1f2469f060253a9f7137abc/AndroidManifest.xml:17:1-42:12
+MERGED from [com.android.support:support-compat:26.1.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/66745741b8717c2a9d3a7d3801e10385/AndroidManifest.xml:17:1-31:12
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.0.aar/5ac4d0e936608d199a0cc34885754d67/AndroidManifest.xml:17:1-24:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/fe929b46675fd4894685e51a578c6274/AndroidManifest.xml:17:1-30:12
+INJECTED from /home/rowan/Downloads/ParcelBarcodeScanner/app/src/main/AndroidManifest.xml:2:1-54:12
+INJECTED from /home/rowan/Downloads/ParcelBarcodeScanner/app/src/main/AndroidManifest.xml:2:1-54:12
+INJECTED from /home/rowan/Downloads/ParcelBarcodeScanner/app/src/main/AndroidManifest.xml:2:1-54:12
+	package
+		ADDED from /home/rowan/Downloads/ParcelBarcodeScanner/app/src/main/AndroidManifest.xml:3:5-53
+		INJECTED from /home/rowan/Downloads/ParcelBarcodeScanner/app/src/main/AndroidManifest.xml
+		INJECTED from /home/rowan/Downloads/ParcelBarcodeScanner/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/rowan/Downloads/ParcelBarcodeScanner/app/src/main/AndroidManifest.xml
+		ADDED from /home/rowan/Downloads/ParcelBarcodeScanner/app/src/main/AndroidManifest.xml:2:1-54:12
+		INJECTED from /home/rowan/Downloads/ParcelBarcodeScanner/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/rowan/Downloads/ParcelBarcodeScanner/app/src/main/AndroidManifest.xml
+		ADDED from /home/rowan/Downloads/ParcelBarcodeScanner/app/src/main/AndroidManifest.xml:2:1-54:12
+		INJECTED from /home/rowan/Downloads/ParcelBarcodeScanner/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/rowan/Downloads/ParcelBarcodeScanner/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /home/rowan/Downloads/ParcelBarcodeScanner/app/src/main/AndroidManifest.xml:5:5-67
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/c1c08d9795b3d990159167a991d1f5f1/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/c1c08d9795b3d990159167a991d1f5f1/AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/c5451a1fa674fad73d130e6a90b2ae5e/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/c5451a1fa674fad73d130e6a90b2ae5e/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/45222cabedbe62d37da5a7287130dbce/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/45222cabedbe62d37da5a7287130dbce/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/c2a55dcdb39abc6a7c3b573cfabe2f7a/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/c2a55dcdb39abc6a7c3b573cfabe2f7a/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:16.2.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/f45cb37873bd01002d1e91fec79d2456/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:16.2.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/f45cb37873bd01002d1e91fec79d2456/AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from /home/rowan/Downloads/ParcelBarcodeScanner/app/src/main/AndroidManifest.xml:5:22-64
+uses-permission#android.permission.CAMERA
+ADDED from /home/rowan/Downloads/ParcelBarcodeScanner/app/src/main/AndroidManifest.xml:6:5-65
+	android:name
+		ADDED from /home/rowan/Downloads/ParcelBarcodeScanner/app/src/main/AndroidManifest.xml:6:22-62
+uses-feature#android.hardware.camera
+ADDED from /home/rowan/Downloads/ParcelBarcodeScanner/app/src/main/AndroidManifest.xml:8:5-60
+	android:name
+		ADDED from /home/rowan/Downloads/ParcelBarcodeScanner/app/src/main/AndroidManifest.xml:8:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from /home/rowan/Downloads/ParcelBarcodeScanner/app/src/main/AndroidManifest.xml:9:5-70
+	android:name
+		ADDED from /home/rowan/Downloads/ParcelBarcodeScanner/app/src/main/AndroidManifest.xml:9:19-67
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /home/rowan/Downloads/ParcelBarcodeScanner/app/src/main/AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from /home/rowan/Downloads/ParcelBarcodeScanner/app/src/main/AndroidManifest.xml:11:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /home/rowan/Downloads/ParcelBarcodeScanner/app/src/main/AndroidManifest.xml:12:5-81
+	android:name
+		ADDED from /home/rowan/Downloads/ParcelBarcodeScanner/app/src/main/AndroidManifest.xml:12:22-78
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /home/rowan/Downloads/ParcelBarcodeScanner/app/src/main/AndroidManifest.xml:13:5-79
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/c1c08d9795b3d990159167a991d1f5f1/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/c1c08d9795b3d990159167a991d1f5f1/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/c5451a1fa674fad73d130e6a90b2ae5e/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/c5451a1fa674fad73d130e6a90b2ae5e/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/45222cabedbe62d37da5a7287130dbce/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/45222cabedbe62d37da5a7287130dbce/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/c2a55dcdb39abc6a7c3b573cfabe2f7a/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/c2a55dcdb39abc6a7c3b573cfabe2f7a/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-iid:16.2.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/f45cb37873bd01002d1e91fec79d2456/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:16.2.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/f45cb37873bd01002d1e91fec79d2456/AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from /home/rowan/Downloads/ParcelBarcodeScanner/app/src/main/AndroidManifest.xml:13:22-76
+application
+ADDED from /home/rowan/Downloads/ParcelBarcodeScanner/app/src/main/AndroidManifest.xml:16:5-52:19
+MERGED from [com.google.firebase:firebase-core:16.0.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.1.aar/487a8014fc24e09db75ca54641b38b52/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:16.0.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.1.aar/487a8014fc24e09db75ca54641b38b52/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:design:26.1.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/1adc83edaee758233b601d199a2d3bf3/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:design:26.1.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/1adc83edaee758233b601d199a2d3bf3/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/b2e37c360693c9a42407a9e026c844eb/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/b2e37c360693c9a42407a9e026c844eb/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /home/rowan/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/9bbd4d44790aed8cf8973821c648325e/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /home/rowan/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/9bbd4d44790aed8cf8973821c648325e/AndroidManifest.xml:9:5-20
+MERGED from [me.dm7.barcodescanner:zxing:1.9.8] /home/rowan/.gradle/caches/transforms-1/files-1.1/zxing-1.9.8.aar/3e8fd3e2589a44ff86755fdac4e0e10a/AndroidManifest.xml:11:5-20
+MERGED from [me.dm7.barcodescanner:zxing:1.9.8] /home/rowan/.gradle/caches/transforms-1/files-1.1/zxing-1.9.8.aar/3e8fd3e2589a44ff86755fdac4e0e10a/AndroidManifest.xml:11:5-20
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/c1c08d9795b3d990159167a991d1f5f1/AndroidManifest.xml:30:5-20
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/c1c08d9795b3d990159167a991d1f5f1/AndroidManifest.xml:30:5-20
+MERGED from [com.google.android.gms:play-services-location:15.0.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/play-services-location-15.0.1.aar/b5c7c8465fe8784a44db3bb8ade04186/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:15.0.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/play-services-location-15.0.1.aar/b5c7c8465fe8784a44db3bb8ade04186/AndroidManifest.xml:7:5-20
+MERGED from [com.android.volley:volley:1.0.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/volley-1.0.0.aar/b0ff482cd130b8f2314231f8a1d4bc27/AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.0.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/volley-1.0.0.aar/b0ff482cd130b8f2314231f8a1d4bc27/AndroidManifest.xml:9:5-20
+MERGED from [com.pusher:push-notifications-android:0.10.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/push-notifications-android-0.10.1.aar/d9b0ebf226abcbe9e15d8860bbd8af0b/AndroidManifest.xml:17:5-61:19
+MERGED from [com.pusher:push-notifications-android:0.10.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/push-notifications-android-0.10.1.aar/d9b0ebf226abcbe9e15d8860bbd8af0b/AndroidManifest.xml:17:5-61:19
+MERGED from [com.google.firebase:firebase-messaging:17.1.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.1.0.aar/9a3d88e95b3f454cfefa15348274d446/AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-messaging:17.1.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.1.0.aar/9a3d88e95b3f454cfefa15348274d446/AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/c5451a1fa674fad73d130e6a90b2ae5e/AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/c5451a1fa674fad73d130e6a90b2ae5e/AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/45222cabedbe62d37da5a7287130dbce/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/45222cabedbe62d37da5a7287130dbce/AndroidManifest.xml:28:5-53:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/7ac470549b4d80c7712ffe6fa396fe3c/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/7ac470549b4d80c7712ffe6fa396fe3c/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/cdbaf34a333d085d0f53842ed1d57683/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/cdbaf34a333d085d0f53842ed1d57683/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/5818711593c65a66006361864bdb1de2/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/5818711593c65a66006361864bdb1de2/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.1.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/505f5960046a230c961688c8d2c4cbcc/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.1.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/505f5960046a230c961688c8d2c4cbcc/AndroidManifest.xml:22:5-26:19
+MERGED from [me.dm7.barcodescanner:core:1.9.8] /home/rowan/.gradle/caches/transforms-1/files-1.1/core-1.9.8.aar/dc335ecead102c4915022705b258044c/AndroidManifest.xml:11:5-20
+MERGED from [me.dm7.barcodescanner:core:1.9.8] /home/rowan/.gradle/caches/transforms-1/files-1.1/core-1.9.8.aar/dc335ecead102c4915022705b258044c/AndroidManifest.xml:11:5-20
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/c2a55dcdb39abc6a7c3b573cfabe2f7a/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/c2a55dcdb39abc6a7c3b573cfabe2f7a/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.firebase:firebase-iid:16.2.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/f45cb37873bd01002d1e91fec79d2456/AndroidManifest.xml:34:5-63:19
+MERGED from [com.google.firebase:firebase-iid:16.2.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/f45cb37873bd01002d1e91fec79d2456/AndroidManifest.xml:34:5-63:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.0.aar/09e0769bea80d2c2668d99117e6df55a/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.0.aar/09e0769bea80d2c2668d99117e6df55a/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/97599bc1c61810df36e15d80f95f61da/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/97599bc1c61810df36e15d80f95f61da/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-15.0.1.aar/b743059f2154a5263e1d2db5c41d51eb/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-15.0.1.aar/b743059f2154a5263e1d2db5c41d51eb/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-common:16.0.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/44684d2aae65563bca8607d9faf4510d/AndroidManifest.xml:8:5-14:19
+MERGED from [com.google.firebase:firebase-common:16.0.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/44684d2aae65563bca8607d9faf4510d/AndroidManifest.xml:8:5-14:19
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/d533b362a93d3bd12890fc5cf3fb69ca/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/d533b362a93d3bd12890fc5cf3fb69ca/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-16.0.0.aar/adb3c4f02c20cc08935bb338f8cbd0dd/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-16.0.0.aar/adb3c4f02c20cc08935bb338f8cbd0dd/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/play-services-stats-15.0.1.aar/351b557b50d8a26203ce0d0de77344f1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/play-services-stats-15.0.1.aar/351b557b50d8a26203ce0d0de77344f1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/4a8eb11df0c7bf542ee4f1cd1d8fbb9e/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/4a8eb11df0c7bf542ee4f1cd1d8fbb9e/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/13ffb66e820a8c64e631d64c3a27f587/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/13ffb66e820a8c64e631d64c3a27f587/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/d52f1c25c1fc0c08681e9b3b0d1ea7a9/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/d52f1c25c1fc0c08681e9b3b0d1ea7a9/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/f54b8903d00169a290023281f7293642/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/f54b8903d00169a290023281f7293642/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/afd4f65321a01a6eac0946f02ef6c48a/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/afd4f65321a01a6eac0946f02ef6c48a/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/df7f4dc49dc281846a6f6b102b580ac2/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/df7f4dc49dc281846a6f6b102b580ac2/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/f643544124c43c7f89d5b1f31a28a487/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/f643544124c43c7f89d5b1f31a28a487/AndroidManifest.xml:25:5-29:19
+MERGED from [com.firebase:firebase-jobdispatcher:0.8.5] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-jobdispatcher-0.8.5.aar/09b8ef00f1f2469f060253a9f7137abc/AndroidManifest.xml:26:5-40:19
+MERGED from [com.firebase:firebase-jobdispatcher:0.8.5] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-jobdispatcher-0.8.5.aar/09b8ef00f1f2469f060253a9f7137abc/AndroidManifest.xml:26:5-40:19
+MERGED from [com.android.support:support-compat:26.1.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/66745741b8717c2a9d3a7d3801e10385/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/66745741b8717c2a9d3a7d3801e10385/AndroidManifest.xml:25:5-29:19
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.0.aar/5ac4d0e936608d199a0cc34885754d67/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.0.aar/5ac4d0e936608d199a0cc34885754d67/AndroidManifest.xml:22:5-20
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/fe929b46675fd4894685e51a578c6274/AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/fe929b46675fd4894685e51a578c6274/AndroidManifest.xml:24:5-28:19
+	android:supportsRtl
+		ADDED from /home/rowan/Downloads/ParcelBarcodeScanner/app/src/main/AndroidManifest.xml:21:9-35
+	android:label
+		ADDED from /home/rowan/Downloads/ParcelBarcodeScanner/app/src/main/AndroidManifest.xml:19:9-41
+	android:roundIcon
+		ADDED from /home/rowan/Downloads/ParcelBarcodeScanner/app/src/main/AndroidManifest.xml:20:9-54
+	android:icon
+		ADDED from /home/rowan/Downloads/ParcelBarcodeScanner/app/src/main/AndroidManifest.xml:18:9-43
+	android:allowBackup
+		ADDED from /home/rowan/Downloads/ParcelBarcodeScanner/app/src/main/AndroidManifest.xml:17:9-35
+	android:theme
+		ADDED from /home/rowan/Downloads/ParcelBarcodeScanner/app/src/main/AndroidManifest.xml:22:9-40
+meta-data#com.google.android.geo.API_KEY
+ADDED from /home/rowan/Downloads/ParcelBarcodeScanner/app/src/main/AndroidManifest.xml:23:9-25:71
+	android:value
+		ADDED from /home/rowan/Downloads/ParcelBarcodeScanner/app/src/main/AndroidManifest.xml:25:13-68
+	android:name
+		ADDED from /home/rowan/Downloads/ParcelBarcodeScanner/app/src/main/AndroidManifest.xml:24:13-58
+meta-data#com.google.android.gms.version
+ADDED from /home/rowan/Downloads/ParcelBarcodeScanner/app/src/main/AndroidManifest.xml:26:9-28:69
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/13ffb66e820a8c64e631d64c3a27f587/AndroidManifest.xml:23:9-25:69
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/13ffb66e820a8c64e631d64c3a27f587/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from /home/rowan/Downloads/ParcelBarcodeScanner/app/src/main/AndroidManifest.xml:28:13-66
+	android:name
+		ADDED from /home/rowan/Downloads/ParcelBarcodeScanner/app/src/main/AndroidManifest.xml:27:13-58
+activity#com.example.rifat.parcelbarcodescanner.LoginActivity
+ADDED from /home/rowan/Downloads/ParcelBarcodeScanner/app/src/main/AndroidManifest.xml:30:9-38:20
+	android:theme
+		ADDED from /home/rowan/Downloads/ParcelBarcodeScanner/app/src/main/AndroidManifest.xml:32:13-56
+	android:name
+		ADDED from /home/rowan/Downloads/ParcelBarcodeScanner/app/src/main/AndroidManifest.xml:31:13-42
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/rowan/Downloads/ParcelBarcodeScanner/app/src/main/AndroidManifest.xml:33:13-37:29
+action#android.intent.action.MAIN
+ADDED from /home/rowan/Downloads/ParcelBarcodeScanner/app/src/main/AndroidManifest.xml:34:17-69
+	android:name
+		ADDED from /home/rowan/Downloads/ParcelBarcodeScanner/app/src/main/AndroidManifest.xml:34:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/rowan/Downloads/ParcelBarcodeScanner/app/src/main/AndroidManifest.xml:36:17-77
+	android:name
+		ADDED from /home/rowan/Downloads/ParcelBarcodeScanner/app/src/main/AndroidManifest.xml:36:27-74
+activity#com.example.rifat.parcelbarcodescanner.ScannerActivity
+ADDED from /home/rowan/Downloads/ParcelBarcodeScanner/app/src/main/AndroidManifest.xml:39:9-53
+	android:name
+		ADDED from /home/rowan/Downloads/ParcelBarcodeScanner/app/src/main/AndroidManifest.xml:39:19-50
+activity#com.example.rifat.parcelbarcodescanner.MainActivity
+ADDED from /home/rowan/Downloads/ParcelBarcodeScanner/app/src/main/AndroidManifest.xml:40:9-50
+	android:name
+		ADDED from /home/rowan/Downloads/ParcelBarcodeScanner/app/src/main/AndroidManifest.xml:40:19-47
+activity#com.example.rifat.parcelbarcodescanner.ResultActivity
+ADDED from /home/rowan/Downloads/ParcelBarcodeScanner/app/src/main/AndroidManifest.xml:41:9-52
+	android:name
+		ADDED from /home/rowan/Downloads/ParcelBarcodeScanner/app/src/main/AndroidManifest.xml:41:19-49
+activity#com.example.rifat.parcelbarcodescanner.TrackActivity
+ADDED from /home/rowan/Downloads/ParcelBarcodeScanner/app/src/main/AndroidManifest.xml:42:9-51
+	android:name
+		ADDED from /home/rowan/Downloads/ParcelBarcodeScanner/app/src/main/AndroidManifest.xml:42:19-48
+activity#com.example.rifat.parcelbarcodescanner.MapsActivity
+ADDED from /home/rowan/Downloads/ParcelBarcodeScanner/app/src/main/AndroidManifest.xml:43:9-50
+	android:name
+		ADDED from /home/rowan/Downloads/ParcelBarcodeScanner/app/src/main/AndroidManifest.xml:43:19-47
+activity#com.example.rifat.parcelbarcodescanner.UpdateLocation
+ADDED from /home/rowan/Downloads/ParcelBarcodeScanner/app/src/main/AndroidManifest.xml:44:9-61
+	android:name
+		ADDED from /home/rowan/Downloads/ParcelBarcodeScanner/app/src/main/AndroidManifest.xml:44:19-49
+service#com.example.rifat.parcelbarcodescanner.MyFirebaseMessagingService
+ADDED from /home/rowan/Downloads/ParcelBarcodeScanner/app/src/main/AndroidManifest.xml:45:9-50:19
+	android:name
+		ADDED from /home/rowan/Downloads/ParcelBarcodeScanner/app/src/main/AndroidManifest.xml:46:13-55
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from /home/rowan/Downloads/ParcelBarcodeScanner/app/src/main/AndroidManifest.xml:47:13-49:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from /home/rowan/Downloads/ParcelBarcodeScanner/app/src/main/AndroidManifest.xml:48:17-77
+	android:name
+		ADDED from /home/rowan/Downloads/ParcelBarcodeScanner/app/src/main/AndroidManifest.xml:48:25-75
+uses-sdk
+INJECTED from /home/rowan/Downloads/ParcelBarcodeScanner/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/rowan/Downloads/ParcelBarcodeScanner/app/src/main/AndroidManifest.xml
+INJECTED from /home/rowan/Downloads/ParcelBarcodeScanner/app/src/main/AndroidManifest.xml
+MERGED from [com.google.firebase:firebase-core:16.0.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.1.aar/487a8014fc24e09db75ca54641b38b52/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.1.aar/487a8014fc24e09db75ca54641b38b52/AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:design:26.1.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/1adc83edaee758233b601d199a2d3bf3/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:26.1.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/1adc83edaee758233b601d199a2d3bf3/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/b2e37c360693c9a42407a9e026c844eb/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/b2e37c360693c9a42407a9e026c844eb/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /home/rowan/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/9bbd4d44790aed8cf8973821c648325e/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /home/rowan/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/9bbd4d44790aed8cf8973821c648325e/AndroidManifest.xml:5:5-7:41
+MERGED from [me.dm7.barcodescanner:zxing:1.9.8] /home/rowan/.gradle/caches/transforms-1/files-1.1/zxing-1.9.8.aar/3e8fd3e2589a44ff86755fdac4e0e10a/AndroidManifest.xml:7:5-9:41
+MERGED from [me.dm7.barcodescanner:zxing:1.9.8] /home/rowan/.gradle/caches/transforms-1/files-1.1/zxing-1.9.8.aar/3e8fd3e2589a44ff86755fdac4e0e10a/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/c1c08d9795b3d990159167a991d1f5f1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/c1c08d9795b3d990159167a991d1f5f1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-location:15.0.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/play-services-location-15.0.1.aar/b5c7c8465fe8784a44db3bb8ade04186/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:15.0.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/play-services-location-15.0.1.aar/b5c7c8465fe8784a44db3bb8ade04186/AndroidManifest.xml:5:5-44
+MERGED from [com.android.volley:volley:1.0.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/volley-1.0.0.aar/b0ff482cd130b8f2314231f8a1d4bc27/AndroidManifest.xml:7:5-43
+MERGED from [com.android.volley:volley:1.0.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/volley-1.0.0.aar/b0ff482cd130b8f2314231f8a1d4bc27/AndroidManifest.xml:7:5-43
+MERGED from [com.pusher:push-notifications-android:0.10.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/push-notifications-android-0.10.1.aar/d9b0ebf226abcbe9e15d8860bbd8af0b/AndroidManifest.xml:7:5-9:41
+MERGED from [com.pusher:push-notifications-android:0.10.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/push-notifications-android-0.10.1.aar/d9b0ebf226abcbe9e15d8860bbd8af0b/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-messaging:17.1.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.1.0.aar/9a3d88e95b3f454cfefa15348274d446/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:17.1.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.1.0.aar/9a3d88e95b3f454cfefa15348274d446/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/c5451a1fa674fad73d130e6a90b2ae5e/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/c5451a1fa674fad73d130e6a90b2ae5e/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/45222cabedbe62d37da5a7287130dbce/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/45222cabedbe62d37da5a7287130dbce/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/7ac470549b4d80c7712ffe6fa396fe3c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/7ac470549b4d80c7712ffe6fa396fe3c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/cdbaf34a333d085d0f53842ed1d57683/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/cdbaf34a333d085d0f53842ed1d57683/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/5818711593c65a66006361864bdb1de2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/5818711593c65a66006361864bdb1de2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.1.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/505f5960046a230c961688c8d2c4cbcc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.1.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/505f5960046a230c961688c8d2c4cbcc/AndroidManifest.xml:20:5-44
+MERGED from [me.dm7.barcodescanner:core:1.9.8] /home/rowan/.gradle/caches/transforms-1/files-1.1/core-1.9.8.aar/dc335ecead102c4915022705b258044c/AndroidManifest.xml:7:5-9:41
+MERGED from [me.dm7.barcodescanner:core:1.9.8] /home/rowan/.gradle/caches/transforms-1/files-1.1/core-1.9.8.aar/dc335ecead102c4915022705b258044c/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/c2a55dcdb39abc6a7c3b573cfabe2f7a/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/c2a55dcdb39abc6a7c3b573cfabe2f7a/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:16.2.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/f45cb37873bd01002d1e91fec79d2456/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:16.2.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/f45cb37873bd01002d1e91fec79d2456/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.0.aar/09e0769bea80d2c2668d99117e6df55a/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.0.aar/09e0769bea80d2c2668d99117e6df55a/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/97599bc1c61810df36e15d80f95f61da/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/97599bc1c61810df36e15d80f95f61da/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-15.0.1.aar/b743059f2154a5263e1d2db5c41d51eb/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-15.0.1.aar/b743059f2154a5263e1d2db5c41d51eb/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:16.0.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/44684d2aae65563bca8607d9faf4510d/AndroidManifest.xml:5:5-6:37
+MERGED from [com.google.firebase:firebase-common:16.0.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/44684d2aae65563bca8607d9faf4510d/AndroidManifest.xml:5:5-6:37
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/d533b362a93d3bd12890fc5cf3fb69ca/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/d533b362a93d3bd12890fc5cf3fb69ca/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-16.0.0.aar/adb3c4f02c20cc08935bb338f8cbd0dd/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-16.0.0.aar/adb3c4f02c20cc08935bb338f8cbd0dd/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/play-services-stats-15.0.1.aar/351b557b50d8a26203ce0d0de77344f1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/play-services-stats-15.0.1.aar/351b557b50d8a26203ce0d0de77344f1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/4a8eb11df0c7bf542ee4f1cd1d8fbb9e/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/4a8eb11df0c7bf542ee4f1cd1d8fbb9e/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/13ffb66e820a8c64e631d64c3a27f587/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/13ffb66e820a8c64e631d64c3a27f587/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.1.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/d52f1c25c1fc0c08681e9b3b0d1ea7a9/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/d52f1c25c1fc0c08681e9b3b0d1ea7a9/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:26.1.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/f54b8903d00169a290023281f7293642/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.1.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/f54b8903d00169a290023281f7293642/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/afd4f65321a01a6eac0946f02ef6c48a/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/afd4f65321a01a6eac0946f02ef6c48a/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/df7f4dc49dc281846a6f6b102b580ac2/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/df7f4dc49dc281846a6f6b102b580ac2/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/f643544124c43c7f89d5b1f31a28a487/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/f643544124c43c7f89d5b1f31a28a487/AndroidManifest.xml:21:5-23:61
+MERGED from [com.firebase:firebase-jobdispatcher:0.8.5] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-jobdispatcher-0.8.5.aar/09b8ef00f1f2469f060253a9f7137abc/AndroidManifest.xml:22:5-24:41
+MERGED from [com.firebase:firebase-jobdispatcher:0.8.5] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-jobdispatcher-0.8.5.aar/09b8ef00f1f2469f060253a9f7137abc/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-compat:26.1.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/66745741b8717c2a9d3a7d3801e10385/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/66745741b8717c2a9d3a7d3801e10385/AndroidManifest.xml:21:5-23:58
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.0.aar/5ac4d0e936608d199a0cc34885754d67/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.0.aar/5ac4d0e936608d199a0cc34885754d67/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/fe929b46675fd4894685e51a578c6274/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/fe929b46675fd4894685e51a578c6274/AndroidManifest.xml:20:5-22:41
+INJECTED from /home/rowan/Downloads/ParcelBarcodeScanner/app/src/main/AndroidManifest.xml
+INJECTED from /home/rowan/Downloads/ParcelBarcodeScanner/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:26.1.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/1adc83edaee758233b601d199a2d3bf3/AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from /home/rowan/Downloads/ParcelBarcodeScanner/app/src/main/AndroidManifest.xml
+		ADDED from /home/rowan/Downloads/ParcelBarcodeScanner/app/src/main/AndroidManifest.xml
+		INJECTED from /home/rowan/Downloads/ParcelBarcodeScanner/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/rowan/Downloads/ParcelBarcodeScanner/app/src/main/AndroidManifest.xml
+		ADDED from /home/rowan/Downloads/ParcelBarcodeScanner/app/src/main/AndroidManifest.xml
+		INJECTED from /home/rowan/Downloads/ParcelBarcodeScanner/app/src/main/AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:26.1.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/1adc83edaee758233b601d199a2d3bf3/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/b2e37c360693c9a42407a9e026c844eb/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/b2e37c360693c9a42407a9e026c844eb/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/7ac470549b4d80c7712ffe6fa396fe3c/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/7ac470549b4d80c7712ffe6fa396fe3c/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/cdbaf34a333d085d0f53842ed1d57683/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/cdbaf34a333d085d0f53842ed1d57683/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/5818711593c65a66006361864bdb1de2/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/5818711593c65a66006361864bdb1de2/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.1.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/505f5960046a230c961688c8d2c4cbcc/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.1.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/505f5960046a230c961688c8d2c4cbcc/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.1.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/d52f1c25c1fc0c08681e9b3b0d1ea7a9/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/d52f1c25c1fc0c08681e9b3b0d1ea7a9/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/f54b8903d00169a290023281f7293642/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/f54b8903d00169a290023281f7293642/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/afd4f65321a01a6eac0946f02ef6c48a/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/afd4f65321a01a6eac0946f02ef6c48a/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/df7f4dc49dc281846a6f6b102b580ac2/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/df7f4dc49dc281846a6f6b102b580ac2/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/f643544124c43c7f89d5b1f31a28a487/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/f643544124c43c7f89d5b1f31a28a487/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/66745741b8717c2a9d3a7d3801e10385/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/66745741b8717c2a9d3a7d3801e10385/AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:design:26.1.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/1adc83edaee758233b601d199a2d3bf3/AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:design:26.1.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/1adc83edaee758233b601d199a2d3bf3/AndroidManifest.xml:27:13-51
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:15.0.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/c1c08d9795b3d990159167a991d1f5f1/AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:15.0.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/c1c08d9795b3d990159167a991d1f5f1/AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:15.0.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/c1c08d9795b3d990159167a991d1f5f1/AndroidManifest.xml:28:9-32
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.pusher:push-notifications-android:0.10.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/push-notifications-android-0.10.1.aar/d9b0ebf226abcbe9e15d8860bbd8af0b/AndroidManifest.xml:11:5-13:47
+MERGED from [com.google.firebase:firebase-iid:16.2.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/f45cb37873bd01002d1e91fec79d2456/AndroidManifest.xml:28:5-30:47
+MERGED from [com.google.firebase:firebase-iid:16.2.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/f45cb37873bd01002d1e91fec79d2456/AndroidManifest.xml:28:5-30:47
+	android:protectionLevel
+		ADDED from [com.pusher:push-notifications-android:0.10.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/push-notifications-android-0.10.1.aar/d9b0ebf226abcbe9e15d8860bbd8af0b/AndroidManifest.xml:13:9-44
+	android:name
+		ADDED from [com.pusher:push-notifications-android:0.10.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/push-notifications-android-0.10.1.aar/d9b0ebf226abcbe9e15d8860bbd8af0b/AndroidManifest.xml:12:9-63
+permission#com.example.rifat.parcelbarcodescanner.permission.C2D_MESSAGE
+ADDED from [com.pusher:push-notifications-android:0.10.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/push-notifications-android-0.10.1.aar/d9b0ebf226abcbe9e15d8860bbd8af0b/AndroidManifest.xml:11:5-13:47
+MERGED from [com.google.firebase:firebase-iid:16.2.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/f45cb37873bd01002d1e91fec79d2456/AndroidManifest.xml:28:5-30:47
+MERGED from [com.google.firebase:firebase-iid:16.2.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/f45cb37873bd01002d1e91fec79d2456/AndroidManifest.xml:28:5-30:47
+	android:protectionLevel
+		ADDED from [com.pusher:push-notifications-android:0.10.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/push-notifications-android-0.10.1.aar/d9b0ebf226abcbe9e15d8860bbd8af0b/AndroidManifest.xml:13:9-44
+	android:name
+		ADDED from [com.pusher:push-notifications-android:0.10.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/push-notifications-android-0.10.1.aar/d9b0ebf226abcbe9e15d8860bbd8af0b/AndroidManifest.xml:12:9-63
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.pusher:push-notifications-android:0.10.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/push-notifications-android-0.10.1.aar/d9b0ebf226abcbe9e15d8860bbd8af0b/AndroidManifest.xml:15:5-79
+MERGED from [com.google.firebase:firebase-iid:16.2.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/f45cb37873bd01002d1e91fec79d2456/AndroidManifest.xml:32:5-79
+MERGED from [com.google.firebase:firebase-iid:16.2.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/f45cb37873bd01002d1e91fec79d2456/AndroidManifest.xml:32:5-79
+	android:name
+		ADDED from [com.pusher:push-notifications-android:0.10.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/push-notifications-android-0.10.1.aar/d9b0ebf226abcbe9e15d8860bbd8af0b/AndroidManifest.xml:15:22-76
+uses-permission#com.example.rifat.parcelbarcodescanner.permission.C2D_MESSAGE
+ADDED from [com.pusher:push-notifications-android:0.10.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/push-notifications-android-0.10.1.aar/d9b0ebf226abcbe9e15d8860bbd8af0b/AndroidManifest.xml:15:5-79
+MERGED from [com.google.firebase:firebase-iid:16.2.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/f45cb37873bd01002d1e91fec79d2456/AndroidManifest.xml:32:5-79
+MERGED from [com.google.firebase:firebase-iid:16.2.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/f45cb37873bd01002d1e91fec79d2456/AndroidManifest.xml:32:5-79
+	android:name
+		ADDED from [com.pusher:push-notifications-android:0.10.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/push-notifications-android-0.10.1.aar/d9b0ebf226abcbe9e15d8860bbd8af0b/AndroidManifest.xml:15:22-76
+receiver#com.pusher.pushnotifications.reporting.FCMMessageReceiver
+ADDED from [com.pusher:push-notifications-android:0.10.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/push-notifications-android-0.10.1.aar/d9b0ebf226abcbe9e15d8860bbd8af0b/AndroidManifest.xml:18:9-27:20
+	android:exported
+		ADDED from [com.pusher:push-notifications-android:0.10.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/push-notifications-android-0.10.1.aar/d9b0ebf226abcbe9e15d8860bbd8af0b/AndroidManifest.xml:20:13-36
+	android:permission
+		ADDED from [com.pusher:push-notifications-android:0.10.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/push-notifications-android-0.10.1.aar/d9b0ebf226abcbe9e15d8860bbd8af0b/AndroidManifest.xml:21:13-73
+	android:name
+		ADDED from [com.pusher:push-notifications-android:0.10.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/push-notifications-android-0.10.1.aar/d9b0ebf226abcbe9e15d8860bbd8af0b/AndroidManifest.xml:19:13-85
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:${applicationId}
+ADDED from [com.pusher:push-notifications-android:0.10.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/push-notifications-android-0.10.1.aar/d9b0ebf226abcbe9e15d8860bbd8af0b/AndroidManifest.xml:22:13-26:29
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:com.example.rifat.parcelbarcodescanner
+ADDED from [com.pusher:push-notifications-android:0.10.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/push-notifications-android-0.10.1.aar/d9b0ebf226abcbe9e15d8860bbd8af0b/AndroidManifest.xml:22:13-26:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.pusher:push-notifications-android:0.10.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/push-notifications-android-0.10.1.aar/d9b0ebf226abcbe9e15d8860bbd8af0b/AndroidManifest.xml:23:17-81
+	android:name
+		ADDED from [com.pusher:push-notifications-android:0.10.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/push-notifications-android-0.10.1.aar/d9b0ebf226abcbe9e15d8860bbd8af0b/AndroidManifest.xml:23:25-78
+category#${applicationId}
+ADDED from [com.pusher:push-notifications-android:0.10.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/push-notifications-android-0.10.1.aar/d9b0ebf226abcbe9e15d8860bbd8af0b/AndroidManifest.xml:25:17-61
+	android:name
+		ADDED from [com.pusher:push-notifications-android:0.10.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/push-notifications-android-0.10.1.aar/d9b0ebf226abcbe9e15d8860bbd8af0b/AndroidManifest.xml:25:27-58
+category#com.example.rifat.parcelbarcodescanner
+ADDED from [com.pusher:push-notifications-android:0.10.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/push-notifications-android-0.10.1.aar/d9b0ebf226abcbe9e15d8860bbd8af0b/AndroidManifest.xml:25:17-61
+	android:name
+		ADDED from [com.pusher:push-notifications-android:0.10.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/push-notifications-android-0.10.1.aar/d9b0ebf226abcbe9e15d8860bbd8af0b/AndroidManifest.xml:25:27-58
+service#com.pusher.pushnotifications.reporting.ReportingJobService
+ADDED from [com.pusher:push-notifications-android:0.10.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/push-notifications-android-0.10.1.aar/d9b0ebf226abcbe9e15d8860bbd8af0b/AndroidManifest.xml:29:9-36:19
+	android:exported
+		ADDED from [com.pusher:push-notifications-android:0.10.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/push-notifications-android-0.10.1.aar/d9b0ebf226abcbe9e15d8860bbd8af0b/AndroidManifest.xml:31:13-36
+	android:permission
+		ADDED from [com.pusher:push-notifications-android:0.10.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/push-notifications-android-0.10.1.aar/d9b0ebf226abcbe9e15d8860bbd8af0b/AndroidManifest.xml:32:13-69
+	android:name
+		ADDED from [com.pusher:push-notifications-android:0.10.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/push-notifications-android-0.10.1.aar/d9b0ebf226abcbe9e15d8860bbd8af0b/AndroidManifest.xml:30:13-86
+intent-filter#action:name:com.firebase.jobdispatcher.ACTION_EXECUTE
+ADDED from [com.pusher:push-notifications-android:0.10.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/push-notifications-android-0.10.1.aar/d9b0ebf226abcbe9e15d8860bbd8af0b/AndroidManifest.xml:33:13-35:29
+action#com.firebase.jobdispatcher.ACTION_EXECUTE
+ADDED from [com.pusher:push-notifications-android:0.10.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/push-notifications-android-0.10.1.aar/d9b0ebf226abcbe9e15d8860bbd8af0b/AndroidManifest.xml:34:17-84
+	android:name
+		ADDED from [com.pusher:push-notifications-android:0.10.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/push-notifications-android-0.10.1.aar/d9b0ebf226abcbe9e15d8860bbd8af0b/AndroidManifest.xml:34:25-81
+service#com.pusher.pushnotifications.fcm.FCMInstanceIDService
+ADDED from [com.pusher:push-notifications-android:0.10.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/push-notifications-android-0.10.1.aar/d9b0ebf226abcbe9e15d8860bbd8af0b/AndroidManifest.xml:37:9-41:19
+	android:name
+		ADDED from [com.pusher:push-notifications-android:0.10.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/push-notifications-android-0.10.1.aar/d9b0ebf226abcbe9e15d8860bbd8af0b/AndroidManifest.xml:37:18-86
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.pusher:push-notifications-android:0.10.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/push-notifications-android-0.10.1.aar/d9b0ebf226abcbe9e15d8860bbd8af0b/AndroidManifest.xml:38:13-40:29
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.pusher:push-notifications-android:0.10.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/push-notifications-android-0.10.1.aar/d9b0ebf226abcbe9e15d8860bbd8af0b/AndroidManifest.xml:39:17-80
+	android:name
+		ADDED from [com.pusher:push-notifications-android:0.10.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/push-notifications-android-0.10.1.aar/d9b0ebf226abcbe9e15d8860bbd8af0b/AndroidManifest.xml:39:25-77
+service#com.pusher.pushnotifications.fcm.EmptyMessagingService
+ADDED from [com.pusher:push-notifications-android:0.10.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/push-notifications-android-0.10.1.aar/d9b0ebf226abcbe9e15d8860bbd8af0b/AndroidManifest.xml:42:9-46:19
+	android:name
+		ADDED from [com.pusher:push-notifications-android:0.10.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/push-notifications-android-0.10.1.aar/d9b0ebf226abcbe9e15d8860bbd8af0b/AndroidManifest.xml:42:18-87
+provider#com.pusher.pushnotifications.internal.PushNotificationsInitProvider
+ADDED from [com.pusher:push-notifications-android:0.10.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/push-notifications-android-0.10.1.aar/d9b0ebf226abcbe9e15d8860bbd8af0b/AndroidManifest.xml:48:9-52:38
+	android:authorities
+		ADDED from [com.pusher:push-notifications-android:0.10.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/push-notifications-android-0.10.1.aar/d9b0ebf226abcbe9e15d8860bbd8af0b/AndroidManifest.xml:50:13-81
+	android:exported
+		ADDED from [com.pusher:push-notifications-android:0.10.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/push-notifications-android-0.10.1.aar/d9b0ebf226abcbe9e15d8860bbd8af0b/AndroidManifest.xml:51:13-37
+	android:initOrder
+		ADDED from [com.pusher:push-notifications-android:0.10.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/push-notifications-android-0.10.1.aar/d9b0ebf226abcbe9e15d8860bbd8af0b/AndroidManifest.xml:52:13-35
+	android:name
+		ADDED from [com.pusher:push-notifications-android:0.10.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/push-notifications-android-0.10.1.aar/d9b0ebf226abcbe9e15d8860bbd8af0b/AndroidManifest.xml:49:13-95
+activity#com.pusher.pushnotifications.reporting.OpenNotificationActivity
+ADDED from [com.pusher:push-notifications-android:0.10.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/push-notifications-android-0.10.1.aar/d9b0ebf226abcbe9e15d8860bbd8af0b/AndroidManifest.xml:54:9-60:20
+	android:name
+		ADDED from [com.pusher:push-notifications-android:0.10.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/push-notifications-android-0.10.1.aar/d9b0ebf226abcbe9e15d8860bbd8af0b/AndroidManifest.xml:54:19-97
+intent-filter#action:name:com.pusher.pushnotifications.OPEN_TRACKING+category:name:android.intent.category.DEFAULT
+ADDED from [com.pusher:push-notifications-android:0.10.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/push-notifications-android-0.10.1.aar/d9b0ebf226abcbe9e15d8860bbd8af0b/AndroidManifest.xml:55:13-59:29
+action#com.pusher.pushnotifications.OPEN_TRACKING
+ADDED from [com.pusher:push-notifications-android:0.10.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/push-notifications-android-0.10.1.aar/d9b0ebf226abcbe9e15d8860bbd8af0b/AndroidManifest.xml:56:17-85
+	android:name
+		ADDED from [com.pusher:push-notifications-android:0.10.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/push-notifications-android-0.10.1.aar/d9b0ebf226abcbe9e15d8860bbd8af0b/AndroidManifest.xml:56:25-82
+category#android.intent.category.DEFAULT
+ADDED from [com.pusher:push-notifications-android:0.10.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/push-notifications-android-0.10.1.aar/d9b0ebf226abcbe9e15d8860bbd8af0b/AndroidManifest.xml:58:17-76
+	android:name
+		ADDED from [com.pusher:push-notifications-android:0.10.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/push-notifications-android-0.10.1.aar/d9b0ebf226abcbe9e15d8860bbd8af0b/AndroidManifest.xml:58:27-73
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:17.1.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.1.0.aar/9a3d88e95b3f454cfefa15348274d446/AndroidManifest.xml:28:9-34:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:17.1.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.1.0.aar/9a3d88e95b3f454cfefa15348274d446/AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:17.1.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.1.0.aar/9a3d88e95b3f454cfefa15348274d446/AndroidManifest.xml:29:13-82
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/c5451a1fa674fad73d130e6a90b2ae5e/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/45222cabedbe62d37da5a7287130dbce/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/45222cabedbe62d37da5a7287130dbce/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/c2a55dcdb39abc6a7c3b573cfabe2f7a/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/c2a55dcdb39abc6a7c3b573cfabe2f7a/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-iid:16.2.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/f45cb37873bd01002d1e91fec79d2456/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:16.2.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/f45cb37873bd01002d1e91fec79d2456/AndroidManifest.xml:24:5-68
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/c5451a1fa674fad73d130e6a90b2ae5e/AndroidManifest.xml:24:22-65
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/c5451a1fa674fad73d130e6a90b2ae5e/AndroidManifest.xml:27:9-31:19
+MERGED from [com.google.firebase:firebase-iid:16.2.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/f45cb37873bd01002d1e91fec79d2456/AndroidManifest.xml:35:9-39:19
+MERGED from [com.google.firebase:firebase-iid:16.2.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/f45cb37873bd01002d1e91fec79d2456/AndroidManifest.xml:35:9-39:19
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/c5451a1fa674fad73d130e6a90b2ae5e/AndroidManifest.xml:27:18-89
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/c5451a1fa674fad73d130e6a90b2ae5e/AndroidManifest.xml:28:13-30:85
+	android:value
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/c5451a1fa674fad73d130e6a90b2ae5e/AndroidManifest.xml:30:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/c5451a1fa674fad73d130e6a90b2ae5e/AndroidManifest.xml:29:17-139
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.firebase:firebase-analytics:16.0.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/45222cabedbe62d37da5a7287130dbce/AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/c2a55dcdb39abc6a7c3b573cfabe2f7a/AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/c2a55dcdb39abc6a7c3b573cfabe2f7a/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/45222cabedbe62d37da5a7287130dbce/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:16.0.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/45222cabedbe62d37da5a7287130dbce/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/45222cabedbe62d37da5a7287130dbce/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/45222cabedbe62d37da5a7287130dbce/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/45222cabedbe62d37da5a7287130dbce/AndroidManifest.xml:30:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:16.0.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/45222cabedbe62d37da5a7287130dbce/AndroidManifest.xml:34:9-42:20
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/c2a55dcdb39abc6a7c3b573cfabe2f7a/AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/c2a55dcdb39abc6a7c3b573cfabe2f7a/AndroidManifest.xml:29:9-37:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/45222cabedbe62d37da5a7287130dbce/AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/45222cabedbe62d37da5a7287130dbce/AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/45222cabedbe62d37da5a7287130dbce/AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/45222cabedbe62d37da5a7287130dbce/AndroidManifest.xml:35:13-100
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:16.0.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/45222cabedbe62d37da5a7287130dbce/AndroidManifest.xml:39:13-41:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:16.0.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/45222cabedbe62d37da5a7287130dbce/AndroidManifest.xml:40:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/45222cabedbe62d37da5a7287130dbce/AndroidManifest.xml:40:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:16.0.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/45222cabedbe62d37da5a7287130dbce/AndroidManifest.xml:44:9-47:40
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/45222cabedbe62d37da5a7287130dbce/AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/45222cabedbe62d37da5a7287130dbce/AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/45222cabedbe62d37da5a7287130dbce/AndroidManifest.xml:45:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.firebase:firebase-analytics:16.0.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/45222cabedbe62d37da5a7287130dbce/AndroidManifest.xml:48:9-52:72
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/45222cabedbe62d37da5a7287130dbce/AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/45222cabedbe62d37da5a7287130dbce/AndroidManifest.xml:51:13-37
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/45222cabedbe62d37da5a7287130dbce/AndroidManifest.xml:52:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/45222cabedbe62d37da5a7287130dbce/AndroidManifest.xml:49:13-87
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:16.2.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/f45cb37873bd01002d1e91fec79d2456/AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.2.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/f45cb37873bd01002d1e91fec79d2456/AndroidManifest.xml:26:22-79
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:16.2.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/f45cb37873bd01002d1e91fec79d2456/AndroidManifest.xml:36:13-38:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:16.2.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/f45cb37873bd01002d1e91fec79d2456/AndroidManifest.xml:38:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.2.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/f45cb37873bd01002d1e91fec79d2456/AndroidManifest.xml:37:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:16.2.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/f45cb37873bd01002d1e91fec79d2456/AndroidManifest.xml:41:9-50:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:16.2.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/f45cb37873bd01002d1e91fec79d2456/AndroidManifest.xml:43:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:16.2.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/f45cb37873bd01002d1e91fec79d2456/AndroidManifest.xml:44:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.2.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/f45cb37873bd01002d1e91fec79d2456/AndroidManifest.xml:42:13-78
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:16.2.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/f45cb37873bd01002d1e91fec79d2456/AndroidManifest.xml:56:9-62:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:16.2.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/f45cb37873bd01002d1e91fec79d2456/AndroidManifest.xml:58:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.2.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/f45cb37873bd01002d1e91fec79d2456/AndroidManifest.xml:57:13-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:15.0.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/97599bc1c61810df36e15d80f95f61da/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/97599bc1c61810df36e15d80f95f61da/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/97599bc1c61810df36e15d80f95f61da/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] /home/rowan/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/97599bc1c61810df36e15d80f95f61da/AndroidManifest.xml:24:13-79
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:16.0.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/44684d2aae65563bca8607d9faf4510d/AndroidManifest.xml:9:9-13:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:16.0.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/44684d2aae65563bca8607d9faf4510d/AndroidManifest.xml:11:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:16.0.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/44684d2aae65563bca8607d9faf4510d/AndroidManifest.xml:12:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:16.0.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/44684d2aae65563bca8607d9faf4510d/AndroidManifest.xml:13:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:16.0.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/44684d2aae65563bca8607d9faf4510d/AndroidManifest.xml:10:13-77
+service#com.firebase.jobdispatcher.GooglePlayReceiver
+ADDED from [com.firebase:firebase-jobdispatcher:0.8.5] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-jobdispatcher-0.8.5.aar/09b8ef00f1f2469f060253a9f7137abc/AndroidManifest.xml:32:9-39:19
+	android:exported
+		ADDED from [com.firebase:firebase-jobdispatcher:0.8.5] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-jobdispatcher-0.8.5.aar/09b8ef00f1f2469f060253a9f7137abc/AndroidManifest.xml:34:13-36
+	android:permission
+		ADDED from [com.firebase:firebase-jobdispatcher:0.8.5] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-jobdispatcher-0.8.5.aar/09b8ef00f1f2469f060253a9f7137abc/AndroidManifest.xml:35:13-93
+	android:name
+		ADDED from [com.firebase:firebase-jobdispatcher:0.8.5] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-jobdispatcher-0.8.5.aar/09b8ef00f1f2469f060253a9f7137abc/AndroidManifest.xml:33:13-73
+intent-filter#action:name:com.google.android.gms.gcm.ACTION_TASK_READY
+ADDED from [com.firebase:firebase-jobdispatcher:0.8.5] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-jobdispatcher-0.8.5.aar/09b8ef00f1f2469f060253a9f7137abc/AndroidManifest.xml:36:13-38:29
+action#com.google.android.gms.gcm.ACTION_TASK_READY
+ADDED from [com.firebase:firebase-jobdispatcher:0.8.5] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-jobdispatcher-0.8.5.aar/09b8ef00f1f2469f060253a9f7137abc/AndroidManifest.xml:37:17-87
+	android:name
+		ADDED from [com.firebase:firebase-jobdispatcher:0.8.5] /home/rowan/.gradle/caches/transforms-1/files-1.1/firebase-jobdispatcher-0.8.5.aar/09b8ef00f1f2469f060253a9f7137abc/AndroidManifest.xml:37:25-84
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/fe929b46675fd4894685e51a578c6274/AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/fe929b46675fd4894685e51a578c6274/AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/rowan/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/fe929b46675fd4894685e51a578c6274/AndroidManifest.xml:26:13-58

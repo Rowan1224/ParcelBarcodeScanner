@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="312dp"
+    android:layout_height="262dp">
+
+    <TextView
+        android:id="@+id/dialogHead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        android:textColor="#e74c3c"/>
+
+    <TextView
+        android:layout_below="@+id/dialogHead"
+        android:id="@+id/popUptxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:layout_marginStart="62dp"
+        android:textSize="16sp"
+        android:textColor="#000" />
+    <TextView
+        android:id="@+id/txtDate"
+        android:layout_below="@+id/popUptxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="19sp"
+        android:layout_marginTop="8dp"
+        android:textColor="#e74c3c"/>
+    <Button
+        android:id="@+id/btnDone"
+        android:layout_below="@+id/txtDate"
+        android:layout_width="116dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="42dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/btn_style"
+        android:textColor="#ffffff"
+        android:text="Done" />
+
+</RelativeLayout>

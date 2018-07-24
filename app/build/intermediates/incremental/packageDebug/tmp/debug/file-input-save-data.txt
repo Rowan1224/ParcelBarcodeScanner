@@ -1,0 +1,11 @@
+#Internal package file, do not edit.
+#Tue Jul 17 01:30:35 BDT 2018
+1.base=/home/rowan/Downloads/ParcelBarcodeScanner/app/build/intermediates/transforms/dexMerger/debug/0
+0.baseType=DIRECTORY
+1.baseType=DIRECTORY
+count=2
+1.set=DEX
+0.path=fonts/STENCIL.TTF
+0.set=ASSET
+0.base=/home/rowan/Downloads/ParcelBarcodeScanner/app/build/intermediates/assets/debug
+1.path=classes.dex

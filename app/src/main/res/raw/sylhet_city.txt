@@ -1,0 +1,194 @@
+﻿Ward1	Ambarkhana
+Ward1	Dargah Mahalla
+Ward1	Darshan Deury
+Ward1	Dargah Gate
+Ward1	Jharnarpar
+Ward1	Mirer Maidan
+Ward1	Rajargali
+Ward1	Purba Subidbazar
+Ward1	Miah Fazil Chist
+Ward2	Dairapar
+Ward2	Jallapara
+Ward2	Kazi Eliaspara
+Ward2	Lama Bazar (Sarasfur)
+Ward2	Zindabazar
+Ward2	Tripara
+Ward2	Mirza Jangal
+Ward3	Kajal Shah
+Ward3	Keyapara
+Ward3	Munshipara
+Ward3	Subid Bazar
+Ward4	West Ambarkhana
+Ward4	Dattapara
+Ward4	Housing Estate
+Ward4	Lichi Bagan, Majudari
+Ward5	Barabazar
+Ward5	Electric Supply
+Ward5	Goypara (Chachnipara)
+Ward5	Khush Dabir
+Ward6	Badam Bagicha
+Ward6	Choukidighi
+Ward6	Eliaskandi
+Ward6	Syedmognj
+Ward7	Bam Kalapara
+Ward7	Fazal Chisti
+Ward7	Kalapara
+Ward7	Pir Mahalla
+Ward7	West Subid Bazar
+Ward7	Jalalabad
+Ward7	Sayaif Khan Road
+Ward8	Brahman Shashan
+Ward8	Hauldar Para
+Ward8	Kucharpara
+Ward8	Korarpar
+Ward8	Noapara
+Ward8	Panitala
+Ward8	Pathantala
+Ward8	Uttar Pir Mahalla
+Ward9	Akhalia
+Ward9	Baghibar
+Ward9	Danukhter
+Ward9	Kuliapar
+Ward9	Kanisail
+Ward9	Nehari Para
+Ward9	Sagardigir Par
+Ward9	West Pathantala
+Ward10	Dhar
+Ward10	Gasitala
+Ward10	Kalapara East
+Ward10	Majumder Para
+Ward10	Molla Para
+Ward10	Nabab Road
+Ward10	Wapda
+Ward11	Bhatalia
+Ward11	Bil Par
+Ward11	Kajalshah
+Ward11	Lala Dighirpar
+Ward11	Madhu Shahid
+Ward11 	Noapara
+Ward11	Rekabi Bazar
+Ward12	Bhangatikar
+Ward12	Itakhola
+Ward12	Kuarpar
+Ward12	Saudagartala
+Ward12	Sekhghat
+Ward14  Bandar Bazar
+Ward14  Brahmandi Bazar
+Ward14  Chali Bandar Poschim, Chararpar
+Ward14  Hasan Market
+Ward14  Dak Bangla Road
+Ward14  Dhupra Dighirpar
+Ward14  Jallar Par
+Ward14  Jamtala
+Ward14  Houkers Market
+Ward14  Kastagarh
+Ward14  Kamal Garh
+Ward14  Kalighat
+Ward14  Lal Dighirpar
+Ward14  Paura Biponi
+Ward14  Paura Mirzajangal
+Ward14  Shah Chatt Road
+Ward14  Uttar Talitala
+Ward14  East Zinda Bazar
+Ward15  West Bandar Bazar
+Ward15  Baruth Khana
+Ward15  Chali Bandar
+Ward15  Churi Patti
+Ward15  Hasan Market
+Ward15  Jail Road
+Ward15  Joynagar
+Ward15  Jaiarpur
+Ward15  Nayarpool
+Ward15  Noapara
+Ward15  Suphani Ghat
+Ward15  Puran Lane
+Ward15  Uttar Dhopa Dighirpar
+Ward15  West Zinda Bazar
+Ward16 Charadigirpar
+Ward16 Dhoper Digirpar
+Ward16 Hauapara
+Ward16 Kahan Daura
+Ward16 Kumarpara
+Ward16 Purba Zinda Bazar
+Ward16 Naya Sarak
+Ward16 Saudagar Tola
+Ward16 Tantipara
+Ward17 Ambarkhana South
+Ward17 Abdulla
+Ward17 Chandan Tala
+Ward17 Chauhatta
+Ward17 Kazi Jalaluddin Mahalla
+Ward17 Kazi Tala
+Ward17 Mir Boxtala
+Ward18 Brajahat Tila
+Ward18 Evergreen
+Ward18 Jharharpar
+Ward18 Jherjheri Para
+Ward18 Kumar Para
+Ward18 Mira Bazar
+Ward18 Mousumi
+Ward18 Sabuj Bagh
+Ward18 Serak
+Ward18 Shahi Eidgah
+Ward18 Shakhari Para
+Ward19 Chandani Tila
+Ward19 Daptari Para
+Ward19 Darjee Band
+Ward19 Darjee Para
+Ward19 Goner Para
+Ward19 Kahar Para
+Ward19 Raynagar
+Ward19 Sonapara
+Ward20 Balichhara South
+Ward20 Kharadi Para
+Ward20 Lama Para
+Ward20 Majumder Para
+Ward20 Roynagar
+Ward20 Senpara
+Ward20 Sonarpara
+Ward20 Shibganj
+Ward21 Bhatatikr
+Ward21 Brahman Para
+Ward21 Gopal Tila
+Ward21 Hatimbagh
+Ward21 Lakri Para
+Ward21 Sadipur
+Ward21 Shaplabagh
+Ward21 Tilaghar
+Ward22 Uposhohor Block-A
+Ward22 Uposhohor Block-B
+Ward22 Uposhohor Block-C
+Ward22 Uposhohor Block-D
+Ward22 Uposhohor Block-E
+Ward22 Uposhohor Block-F
+Ward22 Uposhohor Block-G
+Ward22 Uposhohor Block-H
+Ward22 Uposhohor Block-I
+Ward22 Uposhohor Block-J
+Ward22 Shahjalal Uposhohor Bangladesh Bank Colony
+Ward23 Machimpur
+Ward23 Mehendibagh
+Ward24 Hatimbagh
+Ward24 Kurshi Ghat
+Ward24 Lamapara
+Ward24 Mirapara
+Ward24 Sadatikar
+Ward24 Sarderpara
+Ward24 Shapla Bagh
+Ward24 Sadipur-2
+Ward24 Tero Ratan
+Ward24 Tuliikar
+Ward25 Barikandi
+Ward25 Barthikhola
+Ward25 Barokhola
+Ward25 Godrail
+Ward25 Khojarkhola
+Ward25 Mominkhola
+Ward25 Musargoan
+Ward25 Lawai
+Ward26 Chandnighat  
+Ward26 Jalopara
+Ward26 Kadamtali
+Ward27 Alampur
+Ward27 Ganganagar
+Ward27 Gotatikar

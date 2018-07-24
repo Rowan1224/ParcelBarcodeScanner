@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "426609471011",
+    "firebase_url": "https://parcelbarcodescanner.firebaseio.com",
+    "project_id": "parcelbarcodescanner",
+    "storage_bucket": "parcelbarcodescanner.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:426609471011:android:e323956122c5c8eb",
+        "android_client_info": {
+          "package_name": "com.example.rifat.parcelbarcodescanner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "426609471011-1r6lndn79vhgh2urr01l1a8ru0k1bb04.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rifat.parcelbarcodescanner",
+            "certificate_hash": "c8c921102a43e67cf7002507034fbb987825693c"
+          }
+        },
+        {
+          "client_id": "426609471011-90tt240rmmaa8liq93iluvoev537ulcq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkmSNc-lK-wa9Oc-QkKOh4JTYOvktJs10"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "426609471011-90tt240rmmaa8liq93iluvoev537ulcq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

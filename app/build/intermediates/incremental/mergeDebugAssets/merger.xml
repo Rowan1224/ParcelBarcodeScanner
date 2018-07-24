@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/home/rowan/Downloads/ParcelBarcodeScanner/app/src/main/assets"><file name="fonts/STENCIL.TTF" path="/home/rowan/Downloads/ParcelBarcodeScanner/app/src/main/assets/fonts/STENCIL.TTF"/></source><source path="/home/rowan/Downloads/ParcelBarcodeScanner/app/build/generated/assets/shaders/debug"/></dataSet><dataSet config="debug"><source path="/home/rowan/Downloads/ParcelBarcodeScanner/app/src/debug/assets"/></dataSet></merger>
