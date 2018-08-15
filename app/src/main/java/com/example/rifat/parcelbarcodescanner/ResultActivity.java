@@ -3,16 +3,25 @@ package com.example.rifat.parcelbarcodescanner;
 import android.app.Dialog;
 import android.app.ProgressDialog;
 import android.content.Context;
+import android.content.Intent;
+import android.location.Address;
+import android.location.Geocoder;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.os.AsyncTask;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.view.Window;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.google.android.gms.common.ConnectionResult;
+import com.google.android.gms.common.GoogleApiAvailability;
+import com.google.gson.JsonObject;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -29,53 +38,79 @@ import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLEncoder;
+import java.util.List;
+import java.util.Locale;
 
 public class ResultActivity extends AppCompatActivity {
 
     public String result;
-    private String centralData;
-    private JSONObject jsonObject;
-    private JSONArray jsonArray;
-
-    private TextView Tname,Tphone,Tsource,Tdestination,Taddress,Ttype;
-    private String Vsender_name,Vsender_phone ,Vsender_address , Vreciv_name,Vreciv_phone;
-    private String Vdestination_code,Vdestination_address,Vtype,Vbarcode,Vtime,Vinformed,Vdelivery_date,Vdelivery_code,VlastScanned;
-    private ProgressDialog progressDialog;
-
-    private Button btnSaveData;
+    Geocoder geocoder;
+    private static final int ERROR_DIALOG_REQUEST = 9001;
+    private static final String TAG = "ResultActivity";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_result);
 
-        Button scan = findViewById(R.id.btnScanAgain);
-        scan.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                finish();
-            }
-        });
+        TextView scanReport =(TextView) findViewById(R.id.Status);
+        TextView dest=(TextView)findViewById(R.id.destinationCode);
+        Button map=(Button) findViewById(R.id.btnMap);
+        ImageView mapImage=(ImageView)findViewById(R.id.Map);
 
-        final Bundle mbundle = getIntent().getExtras();
 
-        if(mbundle != null){
-            this.result = mbundle.getString("code");
-        }
 
-        TextView txtCode = findViewById(R.id.txtCode);
-        txtCode.setText("Code : "+result);
 
         if(isNetworkAvailable()){
-            final SetGetData setGetData = new SetGetData();
-            setGetData.execute("GetData",result);
 
-            progressDialog =new ProgressDialog(ResultActivity.this);
-            progressDialog.setMessage("Getting Parcel info...");
-            progressDialog.show();
+        String check=getIntent().getExtras().getString("Check");
+        ParcelDetails details= (ParcelDetails) getIntent().getSerializableExtra("details");
+
+        dest.setText(details.getDestination_code());
+        String report="";
+
+        if(check.equals("off"))
+        {
+            report=report+getString(R.string.Scan_Report2);
+            report=report+"Sylhet Branch,Sylhet,Bangladesh";
+            scanReport.setText(report);
+
+
+        }
+        else if(check.equals("Delivered"))
+        {
+            report=report+getString(R.string.Delivered);
+            scanReport.setText(report);
+            map.setVisibility(View.INVISIBLE);
+            mapImage.setVisibility(View.INVISIBLE);
+        }
+        else{
+            EmpStatus(scanReport,report);
+        }
+
+
         }else{
             Toast.makeText(ResultActivity.this,"Check Internet",Toast.LENGTH_LONG).show();
         }
+
+        map.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+
+
+
+                        if( isServicesOK() ){
+                            Intent intent = new Intent(ResultActivity.this, MapsActivity.class);
+                            intent.putExtra("lat",getIntent().getExtras().getDouble("lat"));
+                            intent.putExtra("lng",getIntent().getExtras().getDouble("lng"));
+
+                            startActivity(intent);
+                        }
+                    }
+                });
+
+
+
 
     }
 
@@ -86,257 +121,55 @@ public class ResultActivity extends AppCompatActivity {
         return activeNetworkInfo != null;
     }
 
-    private class SetGetData extends AsyncTask<String,Void,String>{
+    private void EmpStatus(TextView scanReport,String report)
+    {
+        List<Address> addresses;
+        double lat=getIntent().getExtras().getDouble("lat");
+        double lng=getIntent().getExtras().getDouble("lng");
+        ParcelDetails details= (ParcelDetails) getIntent().getSerializableExtra("details");
+        geocoder=new Geocoder(ResultActivity.this, Locale.getDefault());
 
-        String data;
-        JSONObject object;
+       report =report+ getString(R.string.Scan_Report2)+'\n';
 
-        @Override
-        protected void onPreExecute() {
-            super.onPreExecute();
+        try {
+            addresses=geocoder.getFromLocation(lat,lng,1);
+
+            String address = addresses.get(0).getAddressLine(0); // If any additional address line present than only, check with max available address lines by getMaxAddressLineIndex()
+            String city = addresses.get(0).getLocality();
+            String state = addresses.get(0).getAdminArea();
+            String country = addresses.get(0).getCountryName();
+            String postalCode = addresses.get(0).getPostalCode();
+            String knownName = addresses.get(0).getFeatureName(); // Only if available else return NULL
+
+            Log.d(TAG, "onCreate: "+ address);
+
+            report=report+address;
+            scanReport.setText(report);
+        } catch (IOException e) {
+            e.printStackTrace();
         }
-
-        @Override
-        protected String doInBackground(String... strings) {
-
-            Boolean bool=false;
-
-            String task = strings[0];
-            String getData_url = "https://ritbolt.000webhostapp.com/getData.php";
-            String setData_url = "http://192.168.0.104/parcel/setData.php";
-            String check_url = "http://192.168.0.104/parcel/checkData.php";
-
-            if(task.equals("GetData") || task.equals("CheckData")){
-                String barcode = strings[1];
-                String Json_String;
-                StringBuilder Json_Data=new StringBuilder();
-
-                try {
-                    URL url;
-
-                    if(task.equals("GetData")){
-
-                        try {
-                            HttpURLConnection urlc = (HttpURLConnection) (new URL(getData_url).openConnection());
-                            urlc.setRequestProperty("User-Agent", "Test");
-                            urlc.setRequestProperty("Connection", "close");
-                            urlc.setConnectTimeout(15000);
-                            urlc.connect();
-                            bool = (urlc.getResponseCode() == 200);
-                        } catch (IOException e) {
-
-                        }
-
-                        if(!bool){
-                            return "BadLuck";
-                        }
-
-                        url = new URL(getData_url);
-                    }else{
-                        url = new URL(check_url);
-                    }
-
-                    HttpURLConnection httpURLConnection = (HttpURLConnection) url.openConnection();
-
-                    httpURLConnection.setRequestMethod("POST");
-                    httpURLConnection.setDoOutput(true);
-                    httpURLConnection.setDoInput(true);
-                    OutputStream OS = httpURLConnection.getOutputStream();
-                    BufferedWriter bufferedWriter = new BufferedWriter(new OutputStreamWriter(OS,"UTF-8"));
-
-                    String data = URLEncoder.encode("barcode","UTF-8")+"="+URLEncoder.encode(barcode,"UTF-8");
-
-                    bufferedWriter.write(data);
-                    bufferedWriter.flush();
-                    bufferedWriter.close();
-                    OS.close();
-
-                    InputStream IS = httpURLConnection.getInputStream();
-                    BufferedReader reader = new BufferedReader(new InputStreamReader(IS));
-
-                    while ((Json_String = reader.readLine()) != null){
-                        Json_Data.append(Json_String).append("\n");
-                    }
-                    reader.close();
-                    IS.close();
-                    httpURLConnection.disconnect();
-
-                    return Json_Data.toString().trim();
-
-                } catch (MalformedURLException e) {
-                    e.printStackTrace();
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }
-            }
-            
-            if(task.equals("SetData")){
-
-                String sender_name = strings[1];
-                String sender_phone= strings[2];
-                String sender_address= strings[3];
-                String reciv_name= strings[4];
-                String reciv_phone= strings[5];
-                String destination_code= strings[6];
-                String destination_address= strings[7];
-                String type= strings[8];
-                String barcode= strings[9];
-                String time= strings[10];
-                String informed= "";
-                String delivery_date= "";
-                String delivery_code= "";
-
-                try {
-                    URL url = new URL(setData_url);
-                    HttpURLConnection httpURLConnection = (HttpURLConnection) url.openConnection();
-                    httpURLConnection.setRequestMethod("POST");
-                    httpURLConnection.setDoOutput(true);
-                    OutputStream OS = httpURLConnection.getOutputStream();
-                    BufferedWriter bufferedWriter = new BufferedWriter(new OutputStreamWriter(OS,"UTF-8"));
-                    String data = URLEncoder.encode("sender_name","UTF-8")+"="+URLEncoder.encode(sender_name,"UTF-8")+"&"+
-                            URLEncoder.encode("sender_phone","UTF-8")+"="+URLEncoder.encode(sender_phone,"UTF-8")+"&"+
-                            URLEncoder.encode("sender_address","UTF-8")+"="+URLEncoder.encode(sender_address,"UTF-8")+"&"+
-                            URLEncoder.encode("reciv_name","UTF-8")+"="+URLEncoder.encode(reciv_name,"UTF-8")+"&"+
-                            URLEncoder.encode("reciv_phone","UTF-8")+"="+URLEncoder.encode(reciv_phone,"UTF-8")+"&"+
-                            URLEncoder.encode("destination_code","UTF-8")+"="+URLEncoder.encode(destination_code,"UTF-8")+"&"+
-                            URLEncoder.encode("destination_address","UTF-8")+"="+URLEncoder.encode(destination_address,"UTF-8")+"&"+
-                            URLEncoder.encode("type","UTF-8")+"="+URLEncoder.encode(type,"UTF-8")+"&"+
-                            URLEncoder.encode("barcode","UTF-8")+"="+URLEncoder.encode(barcode,"UTF-8")+"&"+
-                            URLEncoder.encode("time","UTF-8")+"="+URLEncoder.encode(time,"UTF-8")+"&"+
-                            URLEncoder.encode("informed","UTF-8")+"="+URLEncoder.encode(informed,"UTF-8")+"&"+
-                            URLEncoder.encode("delivery_date","UTF-8")+"="+URLEncoder.encode(delivery_date,"UTF-8")+"&"+
-                            URLEncoder.encode("delivery_code","UTF-8")+"="+URLEncoder.encode(delivery_code,"UTF-8");
-
-                    bufferedWriter.write(data);
-                    bufferedWriter.flush();
-                    bufferedWriter.close();
-                    OS.close();
-                    InputStream IS = httpURLConnection.getInputStream();
-                    IS.close();
-
-                    return "Done";
-
-                } catch (MalformedURLException e) {
-                    e.printStackTrace();
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }
-            }
-
-            return "";
-        }
-
-        @Override
-        protected void onPostExecute(final String postresult) {
-
-            btnSaveData = findViewById(R.id.btnSaveData);
-            System.out.println("Rony "+postresult);
-
-            if(postresult.equals("BadLuck") || postresult.equals("")){
-                progressDialog.dismiss();
-                Toast.makeText(ResultActivity.this,"Currently Website isn't responding ! Please Try again",Toast.LENGTH_LONG).show();
-            }
-            
-            else if(postresult.equals("Done")){
-                final Dialog dialog = new Dialog(ResultActivity.this);
-                dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
-                dialog.setContentView(R.layout.dialog);
-                TextView head = dialog.findViewById(R.id.dialogHead);
-                head.setText("New Parcel");
-                TextView txt = dialog.findViewById(R.id.popUptxt);
-                Button done = dialog.findViewById(R.id.btnDone);
-                txt.setText("Information for this parcel is added in the Local Database.");
-                done.setOnClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View v) {
-                        dialog.dismiss();
-                    }
-                });
-                dialog.show();
-            }
-            else if(postresult.contains("Yes")){
-                final Dialog dialog2 = new Dialog(ResultActivity.this);
-                dialog2.requestWindowFeature(Window.FEATURE_NO_TITLE);
-                dialog2.setContentView(R.layout.dialog);
-                TextView head = dialog2.findViewById(R.id.dialogHead);
-                head.setText("Old Parcel");
-                TextView txt = dialog2.findViewById(R.id.popUptxt);
-                TextView date = dialog2.findViewById(R.id.txtDate);
-                Button done = dialog2.findViewById(R.id.btnDone);
-                txt.setText("This parcel has already been added in the local database on date :");
-                date.setText(postresult.substring(3));
-                done.setOnClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View v) {
-                        dialog2.dismiss();
-                    }
-                });
-                dialog2.show();
-            }
-            else if(postresult.equals("No")){
-                btnSaveData.setVisibility(View.VISIBLE);
-            }
-            else{
-                centralData = postresult;
-
-                try {
-                    jsonObject = new JSONObject(centralData);
-                    jsonArray = jsonObject.getJSONArray("server_responce");
-
-                    Tname = findViewById(R.id.Fname);
-                    Tphone = findViewById(R.id.Fphone);
-                    Tsource = findViewById(R.id.Fsource);
-                    Tdestination = findViewById(R.id.Fdestination);
-                    Taddress = findViewById(R.id.Faddress);
-                    Ttype = findViewById(R.id.Ftype);
-
-                    for(int k=0;k<jsonArray.length();k++){
-                        object = jsonArray.getJSONObject(k);
-                        Vsender_name = object.getString("Sender_Name");
-                        Vsender_phone = object.getString("Sender_Phone");
-                        Vsender_address = object.getString("Sender_Address");
-                        Vreciv_name = object.getString("Reciv_Name");
-                        Vreciv_phone = object.getString("Reciv_Phone");
-                        Vdestination_code = object.getString("Destination_Code");
-                        Vdestination_address = object.getString("Destination_Address");
-                        Vtype = object.getString("Type");
-                        Vbarcode = object.getString("Barcode");
-                        Vtime = object.getString("Time");
-                        VlastScanned=object.getString("LastScanned");
-                        Tname.setText(Vreciv_name);
-                        Tphone.setText(Vreciv_phone);
-                        Tsource.setText(Vsender_address);
-                        String dCode = object.getString("Destination_Code");
-                        String[] arDcode = dCode.split("-");
-                        String district = Readfile.getDistrict(arDcode[0]);
-                        String upazilla = Readfile.getUpazilla(arDcode[0]+"-"+arDcode[1]);
-                        String union = Readfile.getUnion(dCode);
-                        Tdestination.setText(district+","+upazilla+","+union);
-                        Taddress.setText(Vdestination_address);
-                        Ttype.setText(Vtype);
-                    }
-                } catch (JSONException e) {
-                    e.printStackTrace();
-                }
-
-                progressDialog.dismiss();
-
-                btnSaveData.setVisibility(View.GONE);
-
-                final SetGetData check = new SetGetData();
-                check.execute("CheckData",result);
-
-                btnSaveData.setOnClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View v) {
-                        final SetGetData setGetData = new SetGetData();
-                        setGetData.execute("SetData",Vsender_name,Vsender_phone,Vsender_address,Vreciv_name,Vreciv_phone,Vdestination_code,Vdestination_address,Vtype,Vbarcode,Vtime);
-                    }
-                });
-            }
-            
-        }
-
     }
+    public boolean isServicesOK(){
+        Log.d(TAG, "isServicesOK: checking google services version");
+
+
+        int available = GoogleApiAvailability.getInstance().isGooglePlayServicesAvailable(ResultActivity.this);
+
+        if(available == ConnectionResult.SUCCESS){
+            //everything is fine and the user can make map requests
+            Log.d(TAG, "isServicesOK: Google Play Services is working");
+            return true;
+        }
+        else if(GoogleApiAvailability.getInstance().isUserResolvableError(available)){
+            //an error occured but we can resolve it
+            Log.d(TAG, "isServicesOK: an error occured but we can fix it");
+            Dialog dialog = GoogleApiAvailability.getInstance().getErrorDialog(ResultActivity.this, available, ERROR_DIALOG_REQUEST);
+            dialog.show();
+        }else{
+            Toast.makeText(this, "You can't make map requests", Toast.LENGTH_SHORT).show();
+        }
+        return false;
+    }
+
 
 }

@@ -1,276 +1,130 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/activityback">
+    >
+
 
     <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-        <RelativeLayout
-            android:id="@+id/rel1"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_centerHorizontal="true"
-            android:layout_marginStart="8dp"
-            android:layout_marginEnd="8dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="12dp"
-            android:background="#34495e"
-            android:padding="6dp">
-            <RelativeLayout
-                android:id="@+id/relative1"
-                android:layout_width="176dp"
-                android:layout_height="42dp"
-                android:layout_centerHorizontal="true"
-                android:layout_marginTop="6dp"
-                android:background="@drawable/back_scan_complete">
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:gravity="center"
-                    android:text="Scan Completed"
-                    android:textSize="17sp"
-                    android:layout_centerInParent="true"/>
-            </RelativeLayout>
-            <TextView
-                android:id="@+id/txtCode"
-                android:layout_below="@+id/relative1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_centerHorizontal="true"
-                android:textSize="22sp"
-                android:textStyle="italic|bold"
-                android:textColor="#ffffff"
-                android:layout_marginTop="16dp"/>
+        android:id="@+id/relative1"
+        android:layout_width="176dp"
+        android:layout_height="42dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:background="@drawable/back_scan_complete">
 
-            <RelativeLayout
-                android:id="@+id/rel2"
-                android:layout_below="@+id/txtCode"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_centerHorizontal="true"
-                android:layout_marginStart="4dp"
-                android:layout_marginEnd="4dp"
-                android:layout_marginTop="16dp"
-                android:layout_marginBottom="16dp"
-                android:background="#5d6d7e"
-                android:paddingTop="12dp">
-                <RelativeLayout
-                    android:id="@+id/r1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="8dp"
-                    android:layout_centerHorizontal="true">
-                    <TextView
-                        android:id="@+id/name"
-                        android:layout_width="86dp"
-                        android:layout_height="wrap_content"
-                        android:textColor="@color/black"
-                        android:text="Name"
-                        android:textSize="16sp"/>
-                    <TextView
-                        android:id="@+id/k1"
-                        android:layout_toEndOf="@+id/name"
-                        android:layout_width="10dp"
-                        android:layout_height="wrap_content"
-                        android:textColor="@color/black"
-                        android:textSize="16sp"
-                        android:text=":"
-                        android:textStyle="bold"/>
-                    <TextView
-                        android:id="@+id/Fname"
-                        android:layout_toEndOf="@+id/k1"
-                        android:layout_width="160dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="12dp"
-                        android:textColor="@color/white"
-                        android:textSize="16sp" />
-                </RelativeLayout>
-                <RelativeLayout
-                    android:id="@+id/r2"
-                    android:layout_below="@+id/r1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_centerHorizontal="true"
-                    android:layout_marginTop="12dp">
-                    <TextView
-                        android:id="@+id/phone"
-                        android:layout_width="86dp"
-                        android:layout_height="wrap_content"
-                        android:textColor="@color/black"
-                        android:text="Phone"
-                        android:textSize="16sp"/>
-                    <TextView
-                        android:id="@+id/k2"
-                        android:layout_toEndOf="@+id/phone"
-                        android:layout_width="10dp"
-                        android:layout_height="wrap_content"
-                        android:textColor="@color/black"
-                        android:textSize="16sp"
-                        android:text=":"
-                        android:textStyle="bold"/>
-                    <TextView
-                        android:id="@+id/Fphone"
-                        android:layout_toEndOf="@+id/k2"
-                        android:layout_width="160dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="12dp"
-                        android:textColor="@color/white"
-                        android:textSize="16sp"/>
-                </RelativeLayout>
-                <RelativeLayout
-                    android:id="@+id/r3"
-                    android:layout_below="@+id/r2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_centerHorizontal="true"
-                    android:layout_marginTop="12dp">
-                    <TextView
-                        android:id="@+id/source"
-                        android:layout_width="86dp"
-                        android:layout_height="wrap_content"
-                        android:textColor="@color/black"
-                        android:text="Source"
-                        android:textSize="16sp"/>
-                    <TextView
-                        android:id="@+id/k3"
-                        android:layout_toEndOf="@+id/source"
-                        android:layout_width="10dp"
-                        android:layout_height="wrap_content"
-                        android:textColor="@color/black"
-                        android:textSize="16sp"
-                        android:text=":"
-                        android:textStyle="bold"/>
-                    <TextView
-                        android:id="@+id/Fsource"
-                        android:layout_toEndOf="@+id/k3"
-                        android:layout_width="160dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="12dp"
-                        android:textColor="@color/white"
-                        android:textSize="16sp"/>
-                </RelativeLayout>
-                <RelativeLayout
-                    android:id="@+id/r4"
-                    android:layout_below="@+id/r3"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_centerHorizontal="true"
-                    android:layout_marginTop="12dp">
-                    <TextView
-                        android:id="@+id/destination"
-                        android:layout_width="86dp"
-                        android:layout_height="wrap_content"
-                        android:textColor="@color/black"
-                        android:text="Destination"
-                        android:textSize="16sp"/>
-                    <TextView
-                        android:id="@+id/k4"
-                        android:layout_toEndOf="@+id/destination"
-                        android:layout_width="10dp"
-                        android:layout_height="wrap_content"
-                        android:textColor="@color/black"
-                        android:textSize="16sp"
-                        android:text=":"
-                        android:textStyle="bold"/>
-                    <TextView
-                        android:id="@+id/Fdestination"
-                        android:layout_toEndOf="@+id/k4"
-                        android:layout_width="160dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="12dp"
-                        android:textColor="@color/white"
-                        android:textSize="16sp" />
-                </RelativeLayout>
-                <RelativeLayout
-                    android:id="@+id/r5"
-                    android:layout_below="@+id/r4"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_centerHorizontal="true"
-                    android:layout_marginTop="12dp">
-                    <TextView
-                        android:id="@+id/address"
-                        android:layout_width="86dp"
-                        android:layout_height="wrap_content"
-                        android:textColor="@color/black"
-                        android:text="Address"
-                        android:textSize="16sp"/>
-                    <TextView
-                        android:id="@+id/k5"
-                        android:layout_toEndOf="@+id/address"
-                        android:layout_width="10dp"
-                        android:layout_height="wrap_content"
-                        android:textColor="@color/black"
-                        android:textSize="16sp"
-                        android:text=":"
-                        android:textStyle="bold"/>
-                    <TextView
-                        android:id="@+id/Faddress"
-                        android:layout_toEndOf="@+id/k5"
-                        android:layout_width="160dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="12dp"
-                        android:textColor="@color/white"
-                        android:textSize="16sp" />
-                </RelativeLayout>
-                <RelativeLayout
-                    android:id="@+id/r6"
-                    android:layout_below="@+id/r5"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_centerHorizontal="true"
-                    android:layout_marginTop="12dp"
-                    android:layout_marginBottom="18dp">
-                    <TextView
-                        android:id="@+id/type"
-                        android:layout_width="86dp"
-                        android:layout_height="wrap_content"
-                        android:textColor="@color/black"
-                        android:text="Type"
-                        android:textSize="16sp"/>
-                    <TextView
-                        android:id="@+id/k6"
-                        android:layout_toEndOf="@+id/type"
-                        android:layout_width="10dp"
-                        android:layout_height="wrap_content"
-                        android:textColor="@color/black"
-                        android:textSize="16sp"
-                        android:text=":"
-                        android:textStyle="bold"/>
-                    <TextView
-                        android:id="@+id/Ftype"
-                        android:layout_toEndOf="@+id/k6"
-                        android:layout_width="160dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="12dp"
-                        android:textColor="@color/white"
-                        android:textSize="16sp" />
-                </RelativeLayout>
-            </RelativeLayout>
-            <Button
-                android:id="@+id/btnSaveData"
-                android:layout_below="@+id/rel2"
-                android:layout_width="200dp"
-                android:layout_height="50dp"
-                android:layout_centerHorizontal="true"
-                android:layout_marginTop="36dp"
-                android:background="@drawable/btn_style"
-                android:text="Add to Database"/>
-            <Button
-                android:id="@+id/btnScanAgain"
-                android:layout_below="@+id/btnSaveData"
-                android:layout_width="200dp"
-                android:layout_height="50dp"
-                android:layout_centerHorizontal="true"
-                android:layout_marginTop="16dp"
-                android:layout_marginBottom="16dp"
-                android:background="@drawable/btn_style"
-                android:text="scan Again"
-                android:textSize="18sp"
-                android:textColor="@color/white"/>
-        </RelativeLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+
+            android:layout_alignParentTop="true"
+
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="0dp"
+            android:fontFamily="casual"
+            android:gravity="center"
+            android:text="Scan Completed"
+            android:textSize="17sp" />
     </RelativeLayout>
 
-</ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/rel2"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="121dp"
+        android:background="#F5FDFE"
+        android:paddingTop="12dp">
+
+        <RelativeLayout
+            android:id="@+id/r1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp">
+
+            <LinearLayout
+                android:id="@+id/lin1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_marginLeft="15dp"
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:fontFamily="casual"
+                    android:text="@string/Scan_Report1"
+                    android:textAlignment="center"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/destinationCode"
+                    android:layout_width="195dp"
+                    android:layout_height="40dp"
+                    android:fontFamily="casual"
+                    android:textAlignment="center"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="15dp"
+                android:id="@+id/lin2"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:layout_below="@+id/lin1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:fontFamily="casual"
+                    android:text="Status :"
+                    android:textAlignment="center"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/Status"
+                    android:layout_width="195dp"
+                    android:layout_height="100dp"
+                    android:fontFamily="casual"
+                    android:textAlignment="center"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+    <Button
+        android:id="@+id/btnMap"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/btn_style"
+        android:fontFamily="casual"
+        android:text="Locate your Parcel on Map"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/Map"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="83dp"
+        android:src="@drawable/map" />
+
+
+
+</RelativeLayout>

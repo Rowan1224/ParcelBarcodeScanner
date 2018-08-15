@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Parcel Barcode Scanner</string>
     <string name="Api_Key">AIzaSyDGEfPTZr-Xox50cZAupPEy8FxE0IOO1Dg</string>
+    <string name="Scan_Report1">Destination Code : </string>
+    <string name="Scan_Report2"> Now Your Parcel is at : </string>
+    <string name="Delivered">Your Parcel is Delivered</string>
 </resources>

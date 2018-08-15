@@ -6,6 +6,9 @@
     <color name="appbar">#3d566e</color>
     <color name="appbarDark">#34495e</color>
     <color name="activityback"> #1c2833 </color>
-    <color name="white"> #ffffff </color>
-    <color name="black"> #000000 </color>
+    <color name="white">#fff</color>
+    <color name="grey">#bfbfbf</color>
+    <color name="black">#000</color>
+    <color name="linkblue">#3498db</color>
+    <color name="exp1">#85c1e9</color>
 </resources>

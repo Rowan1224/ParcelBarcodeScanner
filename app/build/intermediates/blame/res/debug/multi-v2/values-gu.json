@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/rowan/Downloads/ParcelBarcodeScanner/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-gu/values-gu.xml",
+            "outputFile": "/home/rowan/Music/ParcelBarcodeScanner/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-gu/values-gu.xml",
             "map": [
                 {
                     "source": "/home/rowan/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/13ffb66e820a8c64e631d64c3a27f587/res/values-gu/values.xml",

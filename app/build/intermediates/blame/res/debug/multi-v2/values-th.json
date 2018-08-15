@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/rowan/Downloads/ParcelBarcodeScanner/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-th/values-th.xml",
+            "outputFile": "/home/rowan/Music/ParcelBarcodeScanner/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-th/values-th.xml",
             "map": [
                 {
                     "source": "/home/rowan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/b2e37c360693c9a42407a9e026c844eb/res/values-th/values-th.xml",
@@ -35,6 +35,23 @@
                         "startOffsets": "2019,2127,2306,2431,2540,2735,2861,3010,3335,3538,3645,3823,3947,4146,4327,4421,4519",
                         "endColumns": "107,178,124,108,194,125,148,136,202,106,177,123,198,180,93,97,112",
                         "endOffsets": "2122,2301,2426,2535,2730,2856,3005,3142,3533,3640,3818,3942,4141,4322,4416,4514,4627"
+                    }
+                },
+                {
+                    "source": "/home/rowan/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.2.0.aar/ec9734e0c4a4e9565b315345be76bd33/res/values-th/values-th.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,114,163,281",
+                        "endColumns": "58,48,117,107",
+                        "endOffsets": "109,158,276,384"
+                    },
+                    "to": {
+                        "startLines": "42,43,44,45",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "4922,4981,5030,5148",
+                        "endColumns": "58,48,117,107",
+                        "endOffsets": "4976,5025,5143,5251"
                     }
                 },
                 {

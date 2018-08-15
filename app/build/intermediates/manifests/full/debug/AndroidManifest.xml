@@ -27,6 +27,20 @@
         android:protectionLevel="signature" />
 
     <uses-permission android:name="com.example.rifat.parcelbarcodescanner.permission.C2D_MESSAGE" />
+
+    <uses-feature
+        android:name="android.hardware.camera.front"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.flash"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.screen.landscape"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.wifi"
+        android:required="false" />
+
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
@@ -47,7 +61,7 @@
             android:value="@integer/google_play_services_version" />
 
         <activity
-            android:name="com.example.rifat.parcelbarcodescanner.LoginActivity"
+            android:name="com.example.rifat.parcelbarcodescanner.splashscreen"
             android:theme="@style/AppTheme.NoActionBar" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -55,6 +69,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.example.rifat.parcelbarcodescanner.LoginActivity" />
         <activity android:name="com.example.rifat.parcelbarcodescanner.ScannerActivity" />
         <activity android:name="com.example.rifat.parcelbarcodescanner.MainActivity" />
         <activity android:name="com.example.rifat.parcelbarcodescanner.ResultActivity" />
@@ -67,6 +82,12 @@
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>
         </service>
+
+        <activity android:name="com.example.rifat.parcelbarcodescanner.ParcelRequestFirstPart" />
+        <activity android:name="com.example.rifat.parcelbarcodescanner.ParcelReqSecondPart" />
+        <activity android:name="com.example.rifat.parcelbarcodescanner.UserRequestList" />
+        <activity android:name="com.example.rifat.parcelbarcodescanner.QR_Code" />
+        <activity android:name="com.example.rifat.parcelbarcodescanner.UserRegistration" />
 
         <meta-data
             android:name="android.support.VERSION"
@@ -126,6 +147,15 @@
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>
         </service>
+
+        <activity
+            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+            android:clearTaskOnLaunch="true"
+            android:screenOrientation="sensorLandscape"
+            android:stateNotNeeded="true"
+            android:theme="@style/zxing_CaptureTheme"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+
         <service android:name="com.google.firebase.components.ComponentDiscoveryService" >
             <meta-data
                 android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"

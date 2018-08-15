@@ -3,72 +3,43 @@ package com.example.rifat.parcelbarcodescanner;
 
 import com.google.gson.annotations.SerializedName;
 
-public class DeviceClass {
-    @SerializedName("EmpId") int EmpId;
-    @SerializedName("id") int pk;
-    @SerializedName("Latitude") float Latitude;
-    @SerializedName("Longitude") float Longitude;
-    @SerializedName("Token") String Token;
-    @SerializedName("password") String password;
-    @SerializedName("activity") String activity;
+import java.io.Serializable;
 
-    public DeviceClass(int empId, int pk, float latitude, float longitude,
-                       String token, String password, String activity) {
+public class DeviceClass implements Serializable {
+    @SerializedName("employee_id") String EmpId;
+    @SerializedName("latitude") String Latitude;
+    @SerializedName("longitude") String Longitude;
+    @SerializedName("active") String activity;
+
+    public DeviceClass(String empId, String latitude, String longitude, String activity) {
         EmpId = empId;
-        this.pk = pk;
         Latitude = latitude;
         Longitude = longitude;
-        Token = token;
-        this.password = password;
         this.activity = activity;
     }
 
-    public int getEmpId() {
+    public String getEmpId() {
         return EmpId;
     }
 
-    public void setEmpId(int empId) {
+    public void setEmpId(String empId) {
         EmpId = empId;
     }
 
-    public int getPk() {
-        return pk;
-    }
-
-    public void setPk(int pk) {
-        this.pk = pk;
-    }
-
-    public float getLatitude() {
+    public String getLatitude() {
         return Latitude;
     }
 
-    public void setLatitude(float latitude) {
+    public void setLatitude(String latitude) {
         Latitude = latitude;
     }
 
-    public float getLongitude() {
+    public String getLongitude() {
         return Longitude;
     }
 
-    public void setLongitude(float longitude) {
+    public void setLongitude(String longitude) {
         Longitude = longitude;
-    }
-
-    public String getToken() {
-        return Token;
-    }
-
-    public void setToken(String token) {
-        Token = token;
-    }
-
-    public String getPassword() {
-        return password;
-    }
-
-    public void setPassword(String password) {
-        this.password = password;
     }
 
     public String getActivity() {

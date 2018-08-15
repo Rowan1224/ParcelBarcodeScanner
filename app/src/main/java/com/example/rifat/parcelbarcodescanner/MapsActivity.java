@@ -79,21 +79,19 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_maps);
         getLocationPermission();
-        /*Bundle bundle;
-        bundle=getIntent().getExtras();
-        while(bundle!=null)
-        {
-            Double lat=Double.parseDouble(bundle.getString("Lat"));
-            Double longi=Double.parseDouble(bundle.getString("Long"));
-            ParcelLocation=new LatLng(lat,longi);
-        }*/
+
 
         Button btn=(Button)findViewById(R.id.btnDirection);
+
+        btn.setVisibility(View.INVISIBLE);
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
-                origin = new LatLng(25.753495, 89.252704);
+
+               double lat=getIntent().getExtras().getDouble("lat");
+               double lng=getIntent().getExtras().getDouble("lng");
+                origin = new LatLng(lat,lng);
                 dest =new LatLng(24.905100, 91.869854);
                 //dest= last scanned location from database;
 
@@ -124,9 +122,13 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
                         if(task.isSuccessful()){
                             Log.d(TAG, "onComplete: found location!");
                             Location currentLocation = (Location) task.getResult();
+
+                            double lat=getIntent().getExtras().getDouble("lat");
+                            double lng=getIntent().getExtras().getDouble("lng");
+                            origin = new LatLng(lat,lng);
                             currentLocationlatlong=new LatLng(currentLocation.getLatitude(),currentLocation.getLongitude());
-                           // moveCamera(new LatLng(currentLocation.getLatitude(), currentLocation.getLongitude()),
-                                   // DEFAULT_ZOOM);
+                            moveCamera(origin,DEFAULT_ZOOM);
+
 
                         }else{
                             Log.d(TAG, "onComplete: current location is null");
@@ -142,7 +144,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
     private void moveCamera(LatLng latLng, float zoom){
         Log.d(TAG, "moveCamera: moving the camera to: lat: " + latLng.latitude + ", lng: " + latLng.longitude );
 
-       // LatLng latLng1=new LatLng(24.905294, 91.870197);
+
         mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(latLng, zoom));
         MarkerOptions markerOptions=new MarkerOptions().position(latLng).title("Your Parcel");
         mMap.addMarker(markerOptions);

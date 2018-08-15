@@ -12,7 +12,6 @@
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
-
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -28,7 +27,7 @@
             android:value="@integer/google_play_services_version" />
 
         <activity
-            android:name=".LoginActivity"
+            android:name=".splashscreen"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -36,19 +35,25 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".LoginActivity" />
         <activity android:name=".ScannerActivity" />
         <activity android:name=".MainActivity" />
         <activity android:name=".ResultActivity" />
         <activity android:name=".TrackActivity" />
         <activity android:name=".MapsActivity" />
-        <activity android:name=".UpdateLocation"></activity>
-        <service
-            android:name=".MyFirebaseMessagingService">
+        <activity android:name=".UpdateLocation" />
+
+        <service android:name=".MyFirebaseMessagingService">
             <intent-filter>
-                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>
         </service>
 
+        <activity android:name=".ParcelRequestFirstPart" />
+        <activity android:name=".ParcelReqSecondPart" />
+        <activity android:name=".UserRequestList" />
+        <activity android:name=".QR_Code" />
+        <activity android:name=".UserRegistration"></activity>
     </application>
 
 </manifest>

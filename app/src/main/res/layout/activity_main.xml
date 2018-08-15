@@ -2,35 +2,32 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/activityback">
+    android:background="@color/white"
+
+    android:layout_marginBottom="50dp">
 
     <ImageView
-        android:id="@+id/btnBackScane"
-        android:layout_width="362dp"
-        android:layout_height="346dp"
-        android:src="@drawable/scan"
-        android:layout_centerInParent="true"
-        android:scaleType="fitXY"/>
-    <TextView
         android:id="@+id/btnScan"
-        android:layout_width="142dp"
-        android:layout_height="142dp"
-        android:layout_centerInParent="true"
-        android:text="SCAN"
-        android:textColor="#fff"
-        android:gravity="center"
-        android:textSize="42sp"/>
-    <TextView
-        android:id="@+id/track"
-        android:layout_width="212dp"
-        android:layout_height="56dp"
-        android:layout_alignParentBottom="true"
+        android:layout_width="306dp"
+        android:layout_height="318dp"
+
+
+        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="26dp"
-        android:text="Track"
-        android:gravity="center"
-        android:textColor="@color/white"
-        android:textSize="20sp"
-        android:background="@drawable/btn_style"/>
+        android:layout_marginTop="38dp"
+        android:src="@drawable/qrcode" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="25dp"
+        android:text="Scan QR Code"
+        android:fontFamily="casual"
+        android:textSize="35dp"
+        android:textColor="#1c2833"
+        android:textAlignment="center"/>
+
 
 </RelativeLayout>

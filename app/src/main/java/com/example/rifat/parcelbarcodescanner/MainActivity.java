@@ -1,12 +1,18 @@
 package com.example.rifat.parcelbarcodescanner;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.graphics.Typeface;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
+import android.widget.ImageButton;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.android.volley.AuthFailureError;
@@ -21,6 +27,7 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.iid.FirebaseInstanceId;
 import com.google.firebase.iid.InstanceIdResult;
+import com.ittianyu.bottomnavigationviewex.BottomNavigationViewEx;
 import com.pusher.pushnotifications.PushNotifications;
 
 import org.apache.commons.io.IOUtils;
@@ -36,31 +43,30 @@ import java.util.Map;
 
 public class MainActivity extends AppCompatActivity {
 
+    private static final int Activity_Num=0;
+    public static Activity kill;
+
     private static final String TAG = "MainActivity";
-    TextView btnScan,txtCode;
+    TextView txtCode;
+    ImageView btnScan;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        Task<InstanceIdResult> token = FirebaseInstanceId.getInstance().getInstanceId();
+        setContentView(R.layout.activity_bottm_tab_1);
+        setupBottomNavigationViewEx();
+//
+//        Task<InstanceIdResult> token = FirebaseInstanceId.getInstance().getInstanceId();
+//
+//        token.addOnCompleteListener(new OnCompleteListener<InstanceIdResult>() {
+//            @Override
+//            public void onComplete(@NonNull Task<InstanceIdResult> task) {
+//                //Log.d(TAG, "onCreate: token" + task.getResult().getToken());
+//            }
+//        });
 
-        token.addOnCompleteListener(new OnCompleteListener<InstanceIdResult>() {
-            @Override
-            public void onComplete(@NonNull Task<InstanceIdResult> task) {
-                Log.d(TAG, "onCreate: token" + task.getResult().getToken());
-            }
-        });
 
-
-        TextView track = findViewById(R.id.track);
-        track.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this, TrackActivity.class));
-            }
-        });
         List<String> list = new ArrayList<>();
         List<String> list2 = new ArrayList<>();
 
@@ -85,9 +91,9 @@ public class MainActivity extends AppCompatActivity {
         }
 
         Readfile.read(list, list2);
-        btnScan = findViewById(R.id.btnScan);
+        btnScan =(ImageView) findViewById(R.id.btnScan);
         Typeface mface = Typeface.createFromAsset(getAssets(), "fonts/STENCIL.TTF");
-        btnScan.setTypeface(mface);
+
         btnScan.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -95,15 +101,23 @@ public class MainActivity extends AppCompatActivity {
                 finish();
             }
         });
-        String url="http://192.168.0.117:8000/lists/";
-    ApiHandler api=new ApiHandler();
-    api.RequestGET(MainActivity.this,url);
-        PushNotifications.start(getApplicationContext(), "17786dda-39c1-4746-a7fc-71e068166850");
-        PushNotifications.subscribe("hello");
 
+        kill = this;
 
-
+       /* PushNotifications.start(getApplicationContext(), "17786dda-39c1-4746-a7fc-71e068166850");
+        PushNotifications.subscribe("hello");*/
 
     }
+
+    private void setupBottomNavigationViewEx(){
+        BottomNavigationViewEx bottomNavigationViewEx= findViewById(R.id.bottomNavViewBar);
+        BottomNavigationViewHelper.setupBottomNavigationViewHelper(bottomNavigationViewEx);
+        BottomNavigationViewHelper.enableNavigation(MainActivity.this,bottomNavigationViewEx);
+        Menu menu=bottomNavigationViewEx.getMenu();
+        MenuItem menuItem=menu.getItem(Activity_Num);
+        menuItem.setChecked(true);
+        menuItem.setEnabled(true);
+    }
+
     //MyFirebaseMessagingService myFirebaseMessagingService=new MyFirebaseMessagingService();
 }

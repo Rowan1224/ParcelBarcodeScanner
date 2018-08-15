@@ -2,16 +2,19 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#5499C7">
+   >
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="234dp"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
+        android:fontFamily="casual"
+        android:textAlignment="center"
         android:text="Track Your Parcel"
         android:textSize="24sp"
-        android:textStyle="italic|bold"/>
+        android:textColor="#1c2833"
+        android:textStyle="italic|bold" />
     <View
         android:layout_width="242dp"
         android:layout_height="1.5dp"
@@ -19,36 +22,46 @@
         android:layout_marginTop="58dp"
         android:layout_centerHorizontal="true"/>
 
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="208dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="83dp"
+        android:src="@drawable/go" />
+
     <EditText
         android:id="@+id/editTrack"
-        android:layout_width="226dp"
-        android:layout_height="56dp"
+        android:layout_width="320dp"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="140dp"
-        android:hint="Code"/>
+        android:layout_marginBottom="201dp"
+        android:textAlignment="center" />
 
     <Button
         android:id="@+id/btnTrack"
-        android:layout_below="@+id/editTrack"
-        android:layout_width="160dp"
-        android:layout_height="52dp"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="92dp"
-        android:text="Track"
-        android:background="@drawable/btn_style"
-        android:textSize="16sp"
-        android:textColor="@color/white"/>
-    <Button
-        android:id="@+id/btnMap"
-        android:layout_below="@+id/btnTrack"
         android:layout_width="180dp"
         android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="92dp"
-        android:text="Locate Your Parcel On Map"
+        android:layout_marginBottom="50dp"
         android:background="@drawable/btn_style"
-        android:textSize="16sp"
-        android:textColor="@color/white"/>
+        android:text="Track"
+        android:fontFamily="casual"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+    <!--<Button-->
+        <!--android:id="@+id/btnMap"-->
+        <!--android:layout_below="@+id/btnTrack"-->
+        <!--android:layout_width="180dp"-->
+        <!--android:layout_height="60dp"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginTop="92dp"-->
+        <!--android:text="Parcel Location"-->
+        <!--android:background="@drawable/btn_style"-->
+        <!--android:textSize="16sp"-->
+        <!--android:textColor="@color/white"/>-->
 
 
 </RelativeLayout>

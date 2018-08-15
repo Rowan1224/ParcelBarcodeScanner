@@ -35,7 +35,7 @@ public class ScannerActivity extends AppCompatActivity implements ZXingScannerVi
 
     @Override
     public void handleResult(Result result) {
-        Intent intent = new Intent(ScannerActivity.this,ResultActivity.class);
+        Intent intent = new Intent(ScannerActivity.this,TrackActivity.class);
 
         intent.putExtra("code",result.getText());
 
